@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
+import plotly.express as px
 
 # Page config
 st.set_page_config(page_title="STD Dashboard", page_icon="📊", layout="wide")
@@ -27,7 +28,7 @@ st.dataframe(cleaned_chlamydia.head(10), hide_index=True)
 st.success("Dashboard is running!")
 
 
-#-------------------------SIDEBAR FILTER-------------------------
+#----------------------------------SIDEBAR FILTER----------------------------------
 
 # Sidebar Filter
 st.sidebar.header("Filters")
@@ -57,9 +58,9 @@ selected_states = st.sidebar.multiselect(
     default=["California", "Texas", "Florida"]
 )
 
-#-------------------------CHARTS-------------------------
+#----------------------------------CHARTS----------------------------------
 
-# Cases Over Time Chart
+#----------------Cases Over Time Chart----------------
 st.subheader("Chlamydia Cases Over Time")
 
 # Aggregate cases by year
@@ -94,8 +95,7 @@ st.write(f'''
         - Overall trend: {trend}
         ''')
 
-
-# Top 10 States Chart
+#----------------Top 10 States Chart----------------
 st.subheader("Top 10 States by Total Cases")
 
 # Calculate state totals
@@ -117,8 +117,7 @@ st.pyplot(fig2)
 st.write("**The Data:**")
 st.dataframe(top_states.style.format({"Cases": "{:,.0f}"})) # formatting the cases column
 
-
-# Top 10 States (All Time Rate per 100000)
+#----------------Top 10 States (All Time Rate per 100000)----------------
 top_states_rate = chlamydia_filtered.groupby("Geography")["Rate per 100000"].sum().sort_values(ascending=False).head(10).reset_index()
 
 fig3, ax3 = plt.subplots(figsize=(10, 6))
@@ -136,7 +135,7 @@ st.pyplot(fig3)
 st.write("**The Data:**")
 st.dataframe(top_states_rate.style.format({"Rate per 100000": "{:,.0f}"}))
 
-# State Comparison Over Time
+#----------------State Comparison Over Time----------------
 st.subheader("State Comparison Over Time")
 state_comparison = chlamydia_filtered[chlamydia_filtered["Geography"].isin(selected_states)]
 state_yearly = state_comparison.groupby(["Year", "Geography"])["Cases"].sum().reset_index()
@@ -153,3 +152,40 @@ ax4.grid(True, alpha=0.3)
 plt.tight_layout()
 
 st.pyplot(fig4)
+
+
+#----------------------------------Interactive Map----------------------------------
+st.subheader("Geographic Distribution")
+
+state_abbreviations = {
+    "Alabama": "AL", "Alaska": "AK", "Arizona": "AZ", "Arkansas": "AR",
+    "California": "CA", "Colorado": "CO", "Connecticut": "CT", "Delaware": "DE",
+    "District of Columbia": "DC", "Florida": "FL", "Georgia": "GA", "Hawaii": "HI",
+    "Idaho": "ID", "Illinois": "IL", "Indiana": "IN", "Iowa": "IA", "Kansas": "KS",
+    "Kentucky": "KY", "Louisiana": "LA", "Maine": "ME", "Maryland": "MD",
+    "Massachusetts": "MA", "Michigan": "MI", "Minnesota": "MN", "Mississippi": "MS",
+    "Missouri": "MO", "Montana": "MT", "Nebraska": "NE", "Nevada": "NV",
+    "New Hampshire": "NH", "New Jersey": "NJ", "New Mexico": "NM", "New York": "NY",
+    "North Carolina": "NC", "North Dakota": "ND", "Ohio": "OH", "Oklahoma": "OK",
+    "Oregon": "OR", "Pennsylvania": "PA", "Rhode Island": "RI", "South Carolina": "SC",
+    "South Dakota": "SD", "Tennessee": "TN", "Texas": "TX", "Utah": "UT",
+    "Vermont": "VT", "Virginia": "VA", "Washington": "WA", "West Virginia": "WV",
+    "Wisconsin": "WI", "Wyoming": "WY"
+}
+
+
+latest_year = chlamydia_filtered["Year"].max()
+map_data = chlamydia_filtered[chlamydia_filtered["Year"] == latest_year].copy()
+map_data["state_abbrev"] = map_data["Geography"].map(state_abbreviations)
+
+fig_map = px.choropleth(
+    map_data,
+    locations="state_abbrev",
+    locationmode="USA-states",
+    color="Rate per 100000",
+    scope="usa",
+    title=f"Chlamydia Cases Per 100,000 by State ({latest_year})",
+    color_continuous_scale="Reds"
+)
+
+st.plotly_chart(fig_map, use_container_width=True)
