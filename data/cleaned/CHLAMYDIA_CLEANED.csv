@@ -1,0 +1,1224 @@
+,Indicator,Year,Geography,FIPS,Cases,Rate per 100000
+0,Chlamydia,2000,Alabama,1,15323.0,344.2
+1,Chlamydia,2001,Alabama,1,14524.0,325.4
+2,Chlamydia,2002,Alabama,1,15611.0,349.1
+3,Chlamydia,2003,Alabama,1,14209.0,316.5
+4,Chlamydia,2004,Alabama,1,13314.0,295.2
+5,Chlamydia,2005,Alabama,1,17109.0,376.6
+6,Chlamydia,2006,Alabama,1,22915.0,498.7
+7,Chlamydia,2007,Alabama,1,25153.0,542.8
+8,Chlamydia,2008,Alabama,1,24760.0,529.8
+9,Chlamydia,2009,Alabama,1,25929.0,550.8
+10,Chlamydia,2010,Alabama,1,27041.0,565.1
+11,Chlamydia,2011,Alabama,1,29626.0,617.3
+12,Chlamydia,2012,Alabama,1,30621.0,635.9
+13,Chlamydia,2013,Alabama,1,29464.0,610.0
+14,Chlamydia,2014,Alabama,1,29010.0,599.2
+15,Chlamydia,2015,Alabama,1,26359.0,543.2
+16,Chlamydia,2016,Alabama,1,26901.0,553.1
+17,Chlamydia,2017,Alabama,1,29935.0,614.1
+18,Chlamydia,2018,Alabama,1,28437.0,581.8
+19,Chlamydia,2019,Alabama,1,31228.0,636.9
+20,Chlamydia,2020,Alabama,1,27075.0,538.9
+21,Chlamydia,2021,Alabama,1,31507.0,625.2
+22,Chlamydia,2022,Alabama,1,31060.0,612.1
+23,Chlamydia,2023,Alabama,1,33261.0,651.1
+24,Chlamydia,2000,Alaska,2,2569.0,409.2
+25,Chlamydia,2001,Alaska,2,2744.0,433.1
+26,Chlamydia,2002,Alaska,2,3806.0,592.9
+27,Chlamydia,2003,Alaska,2,3900.0,602.2
+28,Chlamydia,2004,Alaska,2,3954.0,599.7
+29,Chlamydia,2005,Alaska,2,4355.0,652.8
+30,Chlamydia,2006,Alaska,2,4525.0,670.1
+31,Chlamydia,2007,Alaska,2,4911.0,722.3
+32,Chlamydia,2008,Alaska,2,4861.0,709.1
+33,Chlamydia,2009,Alaska,2,5166.0,743.6
+34,Chlamydia,2010,Alaska,2,6019.0,843.1
+35,Chlamydia,2011,Alaska,2,5739.0,794.7
+36,Chlamydia,2012,Alaska,2,5462.0,747.8
+37,Chlamydia,2013,Alaska,2,5774.0,783.4
+38,Chlamydia,2014,Alaska,2,5789.0,786.2
+39,Chlamydia,2015,Alaska,2,5660.0,767.5
+40,Chlamydia,2016,Alaska,2,5698.0,768.5
+41,Chlamydia,2017,Alaska,2,5934.0,802.2
+42,Chlamydia,2018,Alaska,2,6159.0,837.8
+43,Chlamydia,2019,Alaska,2,6254.0,854.9
+44,Chlamydia,2020,Alaska,2,5090.0,694.0
+45,Chlamydia,2021,Alaska,2,5571.0,760.4
+46,Chlamydia,2022,Alaska,2,5338.0,727.7
+47,Chlamydia,2023,Alaska,2,5117.0,697.7
+48,Chlamydia,2000,Arizona,4,12612.0,244.1
+49,Chlamydia,2001,Arizona,4,14354.0,270.6
+50,Chlamydia,2002,Arizona,4,14921.0,273.7
+51,Chlamydia,2003,Arizona,4,12819.0,229.3
+52,Chlamydia,2004,Arizona,4,16786.0,291.5
+53,Chlamydia,2005,Arizona,4,21264.0,355.9
+54,Chlamydia,2006,Arizona,4,24090.0,389.1
+55,Chlamydia,2007,Arizona,4,24866.0,391.0
+56,Chlamydia,2008,Arizona,4,24769.0,381.1
+57,Chlamydia,2009,Arizona,4,26002.0,394.7
+58,Chlamydia,2010,Arizona,4,26861.0,419.2
+59,Chlamydia,2011,Arizona,4,29251.0,451.9
+60,Chlamydia,2012,Arizona,4,30444.0,464.4
+61,Chlamydia,2013,Arizona,4,30564.0,460.8
+62,Chlamydia,2014,Arizona,4,32397.0,481.4
+63,Chlamydia,2015,Arizona,4,32387.0,474.2
+64,Chlamydia,2016,Arizona,4,34923.0,503.1
+65,Chlamydia,2017,Arizona,4,39598.0,562.2
+66,Chlamydia,2018,Arizona,4,40807.0,570.1
+67,Chlamydia,2019,Arizona,4,43058.0,591.6
+68,Chlamydia,2020,Arizona,4,37289.0,521.4
+69,Chlamydia,2021,Arizona,4,41498.0,570.3
+70,Chlamydia,2022,Arizona,4,40796.0,554.4
+71,Chlamydia,2023,Arizona,4,41058.0,552.5
+72,Chlamydia,2000,Arkansas,5,6219.0,232.2
+73,Chlamydia,2001,Arkansas,5,7280.0,270.6
+74,Chlamydia,2002,Arkansas,5,7312.0,270.4
+75,Chlamydia,2003,Arkansas,5,7856.0,288.5
+76,Chlamydia,2004,Arkansas,5,7864.0,286.4
+77,Chlamydia,2005,Arkansas,5,8507.0,306.4
+78,Chlamydia,2006,Arkansas,5,8259.0,293.4
+79,Chlamydia,2007,Arkansas,5,9954.0,350.3
+80,Chlamydia,2008,Arkansas,5,14136.0,493.0
+81,Chlamydia,2009,Arkansas,5,14354.0,497.1
+82,Chlamydia,2010,Arkansas,5,15424.0,527.9
+83,Chlamydia,2011,Arkansas,5,16052.0,545.9
+84,Chlamydia,2012,Arkansas,5,16611.0,562.7
+85,Chlamydia,2013,Arkansas,5,15447.0,522.0
+86,Chlamydia,2014,Arkansas,5,15605.0,525.9
+87,Chlamydia,2015,Arkansas,5,16166.0,542.8
+88,Chlamydia,2016,Arkansas,5,16737.0,559.8
+89,Chlamydia,2017,Arkansas,5,17320.0,577.1
+90,Chlamydia,2018,Arkansas,5,17663.0,586.9
+91,Chlamydia,2019,Arkansas,5,17196.0,569.8
+92,Chlamydia,2020,Arkansas,5,16053.0,533.1
+93,Chlamydia,2021,Arkansas,5,17936.0,592.8
+94,Chlamydia,2022,Arkansas,5,17918.0,588.3
+95,Chlamydia,2023,Arkansas,5,17781.0,579.6
+96,Chlamydia,2000,California,6,95316.0,280.4
+97,Chlamydia,2001,California,6,101915.0,295.6
+98,Chlamydia,2002,California,6,110288.0,316.3
+99,Chlamydia,2003,California,6,117428.0,333.3
+100,Chlamydia,2004,California,6,122197.0,343.8
+101,Chlamydia,2005,California,6,130716.0,365.4
+102,Chlamydia,2006,California,6,135827.0,377.8
+103,Chlamydia,2007,California,6,141928.0,392.2
+104,Chlamydia,2008,California,6,148798.0,407.2
+105,Chlamydia,2009,California,6,146796.0,398.0
+106,Chlamydia,2010,California,6,150443.0,403.1
+107,Chlamydia,2011,California,6,166773.0,443.1
+108,Chlamydia,2012,California,6,167695.0,441.9
+109,Chlamydia,2013,California,6,167346.0,437.4
+110,Chlamydia,2014,California,6,176308.0,456.8
+111,Chlamydia,2015,California,6,189170.0,486.1
+112,Chlamydia,2016,California,6,198155.0,505.9
+113,Chlamydia,2017,California,6,218785.0,555.9
+114,Chlamydia,2018,California,6,231415.0,586.4
+115,Chlamydia,2019,California,6,236719.0,599.1
+116,Chlamydia,2020,California,6,178679.0,451.9
+117,Chlamydia,2021,California,6,191542.0,488.2
+118,Chlamydia,2022,California,6,192647.0,493.6
+119,Chlamydia,2023,California,6,191357.0,491.1
+120,Chlamydia,2000,Colorado,8,12000.0,277.2
+121,Chlamydia,2001,Colorado,8,13239.0,298.7
+122,Chlamydia,2002,Colorado,8,14028.0,311.5
+123,Chlamydia,2003,Colorado,8,13039.0,286.8
+124,Chlamydia,2004,Colorado,8,14151.0,307.9
+125,Chlamydia,2005,Colorado,8,15432.0,331.5
+126,Chlamydia,2006,Colorado,8,16313.0,343.6
+127,Chlamydia,2007,Colorado,8,17186.0,355.3
+128,Chlamydia,2008,Colorado,8,19180.0,389.2
+129,Chlamydia,2009,Colorado,8,19998.0,398.8
+130,Chlamydia,2010,Colorado,8,19447.0,385.3
+131,Chlamydia,2011,Colorado,8,21811.0,425.9
+132,Chlamydia,2012,Colorado,8,21631.0,416.6
+133,Chlamydia,2013,Colorado,8,20386.0,386.9
+134,Chlamydia,2014,Colorado,8,21863.0,408.6
+135,Chlamydia,2015,Colorado,8,23857.0,437.7
+136,Chlamydia,2016,Colorado,8,25569.0,461.6
+137,Chlamydia,2017,Colorado,8,26995.0,481.0
+138,Chlamydia,2018,Colorado,8,29124.0,511.7
+139,Chlamydia,2019,Colorado,8,29821.0,517.8
+140,Chlamydia,2020,Colorado,8,26137.0,452.7
+141,Chlamydia,2021,Colorado,8,26747.0,460.2
+142,Chlamydia,2022,Colorado,8,26646.0,456.3
+143,Chlamydia,2023,Colorado,8,25571.0,435.1
+144,Chlamydia,2000,Connecticut,9,7604.0,222.9
+145,Chlamydia,2001,Connecticut,9,7718.0,225.1
+146,Chlamydia,2002,Connecticut,9,9808.0,284.4
+147,Chlamydia,2003,Connecticut,9,9393.0,270.8
+148,Chlamydia,2004,Connecticut,9,9552.0,274.9
+149,Chlamydia,2005,Connecticut,9,11039.0,317.5
+150,Chlamydia,2006,Connecticut,9,10946.0,314.1
+151,Chlamydia,2007,Connecticut,9,11454.0,328.4
+152,Chlamydia,2008,Connecticut,9,12519.0,357.4
+153,Chlamydia,2009,Connecticut,9,12127.0,345.0
+154,Chlamydia,2010,Connecticut,9,12649.0,353.4
+155,Chlamydia,2011,Connecticut,9,13649.0,380.4
+156,Chlamydia,2012,Connecticut,9,13065.0,363.5
+157,Chlamydia,2013,Connecticut,9,12775.0,355.4
+158,Chlamydia,2014,Connecticut,9,13382.0,372.3
+159,Chlamydia,2015,Connecticut,9,13126.0,365.9
+160,Chlamydia,2016,Connecticut,9,13911.0,388.8
+161,Chlamydia,2017,Connecticut,9,17750.0,496.7
+162,Chlamydia,2018,Connecticut,9,16732.0,468.5
+163,Chlamydia,2019,Connecticut,9,15290.0,428.9
+164,Chlamydia,2020,Connecticut,9,12716.0,352.6
+165,Chlamydia,2021,Connecticut,9,14750.0,409.1
+166,Chlamydia,2022,Connecticut,9,12738.0,351.3
+167,Chlamydia,2023,Connecticut,9,13197.0,364.8
+168,Chlamydia,2000,Delaware,10,2856.0,363.2
+169,Chlamydia,2001,Delaware,10,2793.0,351.3
+170,Chlamydia,2002,Delaware,10,2649.0,329.2
+171,Chlamydia,2003,Delaware,10,3035.0,372.2
+172,Chlamydia,2004,Delaware,10,2954.0,357.1
+173,Chlamydia,2005,Delaware,10,3392.0,403.7
+174,Chlamydia,2006,Delaware,10,3615.0,423.6
+175,Chlamydia,2007,Delaware,10,3479.0,402.1
+176,Chlamydia,2008,Delaware,10,3868.0,441.2
+177,Chlamydia,2009,Delaware,10,4718.0,533.6
+178,Chlamydia,2010,Delaware,10,4464.0,496.2
+179,Chlamydia,2011,Delaware,10,4508.0,496.8
+180,Chlamydia,2012,Delaware,10,4438.0,484.9
+181,Chlamydia,2013,Delaware,10,5213.0,564.4
+182,Chlamydia,2014,Delaware,10,4473.0,479.7
+183,Chlamydia,2015,Delaware,10,4605.0,489.2
+184,Chlamydia,2016,Delaware,10,5365.0,565.4
+185,Chlamydia,2017,Delaware,10,5392.0,563.5
+186,Chlamydia,2018,Delaware,10,6038.0,625.4
+187,Chlamydia,2019,Delaware,10,5864.0,602.2
+188,Chlamydia,2020,Delaware,10,4855.0,490.4
+189,Chlamydia,2021,Delaware,10,4880.0,486.4
+190,Chlamydia,2022,Delaware,10,5177.0,508.3
+191,Chlamydia,2023,Delaware,10,5703.0,552.7
+192,Chlamydia,2000,District of Columbia,11,3205.0,560.5
+193,Chlamydia,2001,District of Columbia,11,3286.0,568.3
+194,Chlamydia,2002,District of Columbia,11,3305.0,570.1
+195,Chlamydia,2003,District of Columbia,11,3168.0,548.2
+196,Chlamydia,2004,District of Columbia,11,3493.0,602.4
+197,Chlamydia,2005,District of Columbia,11,3678.0,631.9
+198,Chlamydia,2006,District of Columbia,11,3368.0,576.9
+199,Chlamydia,2007,District of Columbia,11,6029.0,1029.0
+200,Chlamydia,2008,District of Columbia,11,6924.0,1173.7
+201,Chlamydia,2009,District of Columbia,11,6549.0,1091.5
+202,Chlamydia,2010,District of Columbia,11,5589.0,923.5
+203,Chlamydia,2011,District of Columbia,11,6585.0,1062.4
+204,Chlamydia,2012,District of Columbia,11,6808.0,1072.3
+205,Chlamydia,2013,District of Columbia,11,6414.0,985.9
+206,Chlamydia,2014,District of Columbia,11,5293.0,799.2
+207,Chlamydia,2015,District of Columbia,11,7894.0,1168.8
+208,Chlamydia,2016,District of Columbia,11,7283.0,1061.9
+209,Chlamydia,2017,District of Columbia,11,9107.0,1310.5
+210,Chlamydia,2018,District of Columbia,11,9014.0,1284.9
+211,Chlamydia,2019,District of Columbia,11,9327.0,1321.6
+212,Chlamydia,2020,District of Columbia,11,6413.0,930.0
+213,Chlamydia,2021,District of Columbia,11,6952.0,1037.5
+214,Chlamydia,2022,District of Columbia,11,8141.0,1211.8
+215,Chlamydia,2023,District of Columbia,11,8338.0,1228.0
+216,Chlamydia,2000,Florida,12,33390.0,208.1
+217,Chlamydia,2001,Florida,12,37625.0,230.1
+218,Chlamydia,2002,Florida,12,42058.0,252.2
+219,Chlamydia,2003,Florida,12,42382.0,249.7
+220,Chlamydia,2004,Florida,12,42554.0,245.0
+221,Chlamydia,2005,Florida,12,43372.0,244.0
+222,Chlamydia,2006,Florida,12,48955.0,270.8
+223,Chlamydia,2007,Florida,12,57575.0,315.3
+224,Chlamydia,2008,Florida,12,71017.0,385.7
+225,Chlamydia,2009,Florida,12,72931.0,394.0
+226,Chlamydia,2010,Florida,12,74744.0,396.6
+227,Chlamydia,2011,Florida,12,76033.0,399.1
+228,Chlamydia,2012,Florida,12,77644.0,402.3
+229,Chlamydia,2013,Florida,12,80182.0,410.2
+230,Chlamydia,2014,Florida,12,84194.0,424.2
+231,Chlamydia,2015,Florida,12,90468.0,447.7
+232,Chlamydia,2016,Florida,12,94742.0,459.6
+233,Chlamydia,2017,Florida,12,100018.0,477.1
+234,Chlamydia,2018,Florida,12,104758.0,493.1
+235,Chlamydia,2019,Florida,12,110794.0,515.9
+236,Chlamydia,2020,Florida,12,100030.0,464.4
+237,Chlamydia,2021,Florida,12,104400.0,479.3
+238,Chlamydia,2022,Florida,12,106873.0,480.4
+239,Chlamydia,2023,Florida,12,112804.0,498.9
+240,Chlamydia,2000,Georgia,13,29359.0,356.7
+241,Chlamydia,2001,Georgia,13,33840.0,402.0
+242,Chlamydia,2002,Georgia,13,33998.0,396.1
+243,Chlamydia,2003,Georgia,13,35686.0,408.9
+244,Chlamydia,2004,Georgia,13,34280.0,384.9
+245,Chlamydia,2005,Georgia,13,33562.0,369.2
+246,Chlamydia,2006,Georgia,13,38972.0,418.0
+247,Chlamydia,2007,Georgia,13,42913.0,450.5
+248,Chlamydia,2008,Georgia,13,42629.0,439.9
+249,Chlamydia,2009,Georgia,13,39828.0,405.8
+250,Chlamydia,2010,Georgia,13,45147.0,464.9
+251,Chlamydia,2011,Georgia,13,54403.0,555.0
+252,Chlamydia,2012,Georgia,13,52418.0,529.4
+253,Chlamydia,2013,Georgia,13,51070.0,512.1
+254,Chlamydia,2014,Georgia,13,51945.0,516.0
+255,Chlamydia,2015,Georgia,13,57639.0,566.3
+256,Chlamydia,2016,Georgia,13,62776.0,609.4
+257,Chlamydia,2017,Georgia,13,65104.0,625.4
+258,Chlamydia,2018,Georgia,13,65936.0,627.3
+259,Chlamydia,2019,Georgia,13,67720.0,637.8
+260,Chlamydia,2020,Georgia,13,62582.0,584.2
+261,Chlamydia,2021,Georgia,13,67941.0,629.1
+262,Chlamydia,2022,Georgia,13,72662.0,665.8
+263,Chlamydia,2023,Georgia,13,71294.0,646.4
+264,Chlamydia,2000,Hawaii,15,3547.0,292.6
+265,Chlamydia,2001,Hawaii,15,4031.0,330.7
+266,Chlamydia,2002,Hawaii,15,4521.0,368.6
+267,Chlamydia,2003,Hawaii,15,5480.0,444.9
+268,Chlamydia,2004,Hawaii,15,5307.0,425.6
+269,Chlamydia,2005,Hawaii,15,5489.0,435.9
+270,Chlamydia,2006,Hawaii,15,5548.0,437.1
+271,Chlamydia,2007,Hawaii,15,5659.0,445.7
+272,Chlamydia,2008,Hawaii,15,5982.0,467.3
+273,Chlamydia,2009,Hawaii,15,6026.0,467.8
+274,Chlamydia,2010,Hawaii,15,6015.0,441.0
+275,Chlamydia,2011,Hawaii,15,6001.0,435.1
+276,Chlamydia,2012,Hawaii,15,6340.0,454.5
+277,Chlamydia,2013,Hawaii,15,6640.0,471.5
+278,Chlamydia,2014,Hawaii,15,6419.0,453.8
+279,Chlamydia,2015,Hawaii,15,7074.0,497.5
+280,Chlamydia,2016,Hawaii,15,6902.0,483.5
+281,Chlamydia,2017,Hawaii,15,6850.0,480.9
+282,Chlamydia,2018,Hawaii,15,7735.0,544.5
+283,Chlamydia,2019,Hawaii,15,8093.0,571.6
+284,Chlamydia,2020,Hawaii,15,7005.0,481.4
+285,Chlamydia,2021,Hawaii,15,6078.0,421.6
+286,Chlamydia,2022,Hawaii,15,5530.0,384.0
+287,Chlamydia,2023,Hawaii,15,6251.0,435.6
+288,Chlamydia,2000,Idaho,16,1907.0,146.7
+289,Chlamydia,2001,Idaho,16,2023.0,153.2
+290,Chlamydia,2002,Idaho,16,2503.0,186.6
+291,Chlamydia,2003,Idaho,16,2366.0,173.5
+292,Chlamydia,2004,Idaho,16,2784.0,200.1
+293,Chlamydia,2005,Idaho,16,2799.0,196.4
+294,Chlamydia,2006,Idaho,16,3345.0,228.5
+295,Chlamydia,2007,Idaho,16,3722.0,248.4
+296,Chlamydia,2008,Idaho,16,4194.0,274.8
+297,Chlamydia,2009,Idaho,16,3842.0,248.8
+298,Chlamydia,2010,Idaho,16,4208.0,267.9
+299,Chlamydia,2011,Idaho,16,4699.0,296.7
+300,Chlamydia,2012,Idaho,16,4550.0,285.2
+301,Chlamydia,2013,Idaho,16,5428.0,336.9
+302,Chlamydia,2014,Idaho,16,5442.0,333.6
+303,Chlamydia,2015,Idaho,16,5631.0,341.1
+304,Chlamydia,2016,Idaho,16,5897.0,350.5
+305,Chlamydia,2017,Idaho,16,6200.0,360.9
+306,Chlamydia,2018,Idaho,16,6572.0,375.4
+307,Chlamydia,2019,Idaho,16,6863.0,384.0
+308,Chlamydia,2020,Idaho,16,6273.0,341.1
+309,Chlamydia,2021,Idaho,16,6320.0,332.5
+310,Chlamydia,2022,Idaho,16,5976.0,308.2
+311,Chlamydia,2023,Idaho,16,5793.0,294.9
+312,Chlamydia,2000,Illinois,17,40350.0,324.4
+313,Chlamydia,2001,Illinois,17,43716.0,349.5
+314,Chlamydia,2002,Illinois,17,48101.0,383.1
+315,Chlamydia,2003,Illinois,17,48294.0,383.3
+316,Chlamydia,2004,Illinois,17,47185.0,373.2
+317,Chlamydia,2005,Illinois,17,50559.0,399.0
+318,Chlamydia,2006,Illinois,17,53586.0,421.5
+319,Chlamydia,2007,Illinois,17,55470.0,434.2
+320,Chlamydia,2008,Illinois,17,59169.0,460.9
+321,Chlamydia,2009,Illinois,17,60542.0,469.6
+322,Chlamydia,2010,Illinois,17,60672.0,472.5
+323,Chlamydia,2011,Illinois,17,64939.0,504.7
+324,Chlamydia,2012,Illinois,17,67701.0,525.5
+325,Chlamydia,2013,Illinois,17,63797.0,494.7
+326,Chlamydia,2014,Illinois,17,66536.0,516.4
+327,Chlamydia,2015,Illinois,17,69610.0,541.3
+328,Chlamydia,2016,Illinois,17,72201.0,563.2
+329,Chlamydia,2017,Illinois,17,75518.0,591.0
+330,Chlamydia,2018,Illinois,17,77325.0,607.8
+331,Chlamydia,2019,Illinois,17,81012.0,639.3
+332,Chlamydia,2020,Illinois,17,68716.0,536.3
+333,Chlamydia,2021,Illinois,17,71836.0,566.9
+334,Chlamydia,2022,Illinois,17,71564.0,568.8
+335,Chlamydia,2023,Illinois,17,69992.0,557.7
+336,Chlamydia,2000,Indiana,18,14063.0,230.9
+337,Chlamydia,2001,Indiana,18,15258.0,249.1
+338,Chlamydia,2002,Indiana,18,17100.0,278.1
+339,Chlamydia,2003,Indiana,18,17075.0,276.1
+340,Chlamydia,2004,Indiana,18,18440.0,296.7
+341,Chlamydia,2005,Indiana,18,20063.0,320.8
+342,Chlamydia,2006,Indiana,18,19859.0,315.2
+343,Chlamydia,2007,Indiana,18,20712.0,326.4
+344,Chlamydia,2008,Indiana,18,22154.0,346.9
+345,Chlamydia,2009,Indiana,18,21732.0,338.6
+346,Chlamydia,2010,Indiana,18,22825.0,351.7
+347,Chlamydia,2011,Indiana,18,27801.0,426.6
+348,Chlamydia,2012,Indiana,18,29505.0,451.3
+349,Chlamydia,2013,Indiana,18,28023.0,426.6
+350,Chlamydia,2014,Indiana,18,28519.0,432.5
+351,Chlamydia,2015,Indiana,18,28886.0,437.1
+352,Chlamydia,2016,Indiana,18,30847.0,465.0
+353,Chlamydia,2017,Indiana,18,34278.0,514.8
+354,Chlamydia,2018,Indiana,18,34926.0,521.6
+355,Chlamydia,2019,Indiana,18,35430.0,526.3
+356,Chlamydia,2020,Indiana,18,33372.0,491.8
+357,Chlamydia,2021,Indiana,18,34755.0,510.7
+358,Chlamydia,2022,Indiana,18,33834.0,495.2
+359,Chlamydia,2023,Indiana,18,33693.0,491.0
+360,Chlamydia,2000,Iowa,19,5987.0,204.5
+361,Chlamydia,2001,Iowa,19,5699.0,194.6
+362,Chlamydia,2002,Iowa,19,6195.0,211.5
+363,Chlamydia,2003,Iowa,19,6491.0,221.2
+364,Chlamydia,2004,Iowa,19,6956.0,236.4
+365,Chlamydia,2005,Iowa,19,7390.0,250.5
+366,Chlamydia,2006,Iowa,19,8390.0,282.9
+367,Chlamydia,2007,Iowa,19,8643.0,290.0
+368,Chlamydia,2008,Iowa,19,9372.0,313.0
+369,Chlamydia,2009,Iowa,19,9406.0,312.7
+370,Chlamydia,2010,Iowa,19,10542.0,345.6
+371,Chlamydia,2011,Iowa,19,10705.0,349.1
+372,Chlamydia,2012,Iowa,19,11377.0,369.8
+373,Chlamydia,2013,Iowa,19,10953.0,354.1
+374,Chlamydia,2014,Iowa,19,11804.0,379.6
+375,Chlamydia,2015,Iowa,19,12085.0,387.2
+376,Chlamydia,2016,Iowa,19,12983.0,414.6
+377,Chlamydia,2017,Iowa,19,13893.0,442.2
+378,Chlamydia,2018,Iowa,19,14682.0,466.3
+379,Chlamydia,2019,Iowa,19,16044.0,508.5
+380,Chlamydia,2020,Iowa,19,15097.0,473.2
+381,Chlamydia,2021,Iowa,19,15620.0,489.2
+382,Chlamydia,2022,Iowa,19,14634.0,457.2
+383,Chlamydia,2023,Iowa,19,13687.0,426.8
+384,Chlamydia,2000,Kansas,20,6056.0,224.9
+385,Chlamydia,2001,Kansas,20,6050.0,224.0
+386,Chlamydia,2002,Kansas,20,6784.0,250.2
+387,Chlamydia,2003,Kansas,20,7249.0,266.5
+388,Chlamydia,2004,Kansas,20,7493.0,274.5
+389,Chlamydia,2005,Kansas,20,7419.0,270.8
+390,Chlamydia,2006,Kansas,20,7829.0,284.3
+391,Chlamydia,2007,Kansas,20,8180.0,294.9
+392,Chlamydia,2008,Kansas,20,9208.0,329.4
+393,Chlamydia,2009,Kansas,20,10510.0,373.0
+394,Chlamydia,2010,Kansas,20,9601.0,335.9
+395,Chlamydia,2011,Kansas,20,10598.0,369.4
+396,Chlamydia,2012,Kansas,20,11135.0,385.9
+397,Chlamydia,2013,Kansas,20,11012.0,380.6
+398,Chlamydia,2014,Kansas,20,11116.0,383.2
+399,Chlamydia,2015,Kansas,20,11464.0,394.1
+400,Chlamydia,2016,Kansas,20,12160.0,417.7
+401,Chlamydia,2017,Kansas,20,13554.0,466.0
+402,Chlamydia,2018,Kansas,20,14231.0,488.8
+403,Chlamydia,2019,Kansas,20,15286.0,524.7
+404,Chlamydia,2020,Kansas,20,14620.0,497.6
+405,Chlamydia,2021,Kansas,20,14851.0,506.1
+406,Chlamydia,2022,Kansas,20,13935.0,474.4
+407,Chlamydia,2023,Kansas,20,13345.0,453.8
+408,Chlamydia,2000,Kentucky,21,8063.0,199.1
+409,Chlamydia,2001,Kentucky,21,8881.0,218.3
+410,Chlamydia,2002,Kentucky,21,8756.0,214.0
+411,Chlamydia,2003,Kentucky,21,7981.0,193.8
+412,Chlamydia,2004,Kentucky,21,6470.0,156.1
+413,Chlamydia,2005,Kentucky,21,8351.0,199.8
+414,Chlamydia,2006,Kentucky,21,8940.0,212.0
+415,Chlamydia,2007,Kentucky,21,8798.0,206.8
+416,Chlamydia,2008,Kentucky,21,12163.0,283.7
+417,Chlamydia,2009,Kentucky,21,13293.0,308.3
+418,Chlamydia,2010,Kentucky,21,16376.0,376.6
+419,Chlamydia,2011,Kentucky,21,16629.0,380.5
+420,Chlamydia,2012,Kentucky,21,17273.0,393.8
+421,Chlamydia,2013,Kentucky,21,17134.0,389.0
+422,Chlamydia,2014,Kentucky,21,17664.0,400.1
+423,Chlamydia,2015,Kentucky,21,17444.0,394.1
+424,Chlamydia,2016,Kentucky,21,18286.0,412.0
+425,Chlamydia,2017,Kentucky,21,19320.0,433.9
+426,Chlamydia,2018,Kentucky,21,19440.0,435.8
+427,Chlamydia,2019,Kentucky,21,20911.0,468.1
+428,Chlamydia,2020,Kentucky,21,18750.0,416.1
+429,Chlamydia,2021,Kentucky,21,18500.0,410.3
+430,Chlamydia,2022,Kentucky,21,18358.0,406.8
+431,Chlamydia,2023,Kentucky,21,17284.0,381.9
+432,Chlamydia,2000,Louisiana,22,18088.0,404.7
+433,Chlamydia,2001,Louisiana,22,17926.0,401.9
+434,Chlamydia,2002,Louisiana,22,18442.0,413.0
+435,Chlamydia,2003,Louisiana,22,20970.0,468.8
+436,Chlamydia,2004,Louisiana,22,21837.0,486.6
+437,Chlamydia,2005,Louisiana,22,17227.0,383.2
+438,Chlamydia,2006,Louisiana,22,17885.0,422.0
+439,Chlamydia,2007,Louisiana,22,19362.0,442.7
+440,Chlamydia,2008,Louisiana,22,22659.0,509.3
+441,Chlamydia,2009,Louisiana,22,27628.0,615.4
+442,Chlamydia,2010,Louisiana,22,29151.0,641.5
+443,Chlamydia,2011,Louisiana,22,31614.0,690.9
+444,Chlamydia,2012,Louisiana,22,27353.0,594.5
+445,Chlamydia,2013,Louisiana,22,28739.0,621.4
+446,Chlamydia,2014,Louisiana,22,28955.0,623.5
+447,Chlamydia,2015,Louisiana,22,32325.0,693.0
+448,Chlamydia,2016,Louisiana,22,31727.0,678.2
+449,Chlamydia,2017,Louisiana,22,34756.0,744.2
+450,Chlamydia,2018,Louisiana,22,36293.0,778.9
+451,Chlamydia,2019,Louisiana,22,36131.0,777.2
+452,Chlamydia,2020,Louisiana,22,32997.0,708.4
+453,Chlamydia,2021,Louisiana,22,33759.0,730.1
+454,Chlamydia,2022,Louisiana,22,36200.0,788.6
+455,Chlamydia,2023,Louisiana,22,36242.0,792.4
+456,Chlamydia,2000,Maine,23,1474.0,115.4
+457,Chlamydia,2001,Maine,23,1338.0,104.2
+458,Chlamydia,2002,Maine,23,1805.0,139.6
+459,Chlamydia,2003,Maine,23,2030.0,155.9
+460,Chlamydia,2004,Maine,23,2113.0,161.6
+461,Chlamydia,2005,Maine,23,2254.0,172.0
+462,Chlamydia,2006,Maine,23,2306.0,175.6
+463,Chlamydia,2007,Maine,23,2541.0,193.1
+464,Chlamydia,2008,Maine,23,2608.0,197.9
+465,Chlamydia,2009,Maine,23,2431.0,184.7
+466,Chlamydia,2010,Maine,23,2586.0,194.8
+467,Chlamydia,2011,Maine,23,3094.0,232.9
+468,Chlamydia,2012,Maine,23,3413.0,257.1
+469,Chlamydia,2013,Maine,23,3438.0,258.9
+470,Chlamydia,2014,Maine,23,3530.0,265.3
+471,Chlamydia,2015,Maine,23,3965.0,298.5
+472,Chlamydia,2016,Maine,23,4156.0,312.2
+473,Chlamydia,2017,Maine,23,4555.0,341.3
+474,Chlamydia,2018,Maine,23,4345.0,324.5
+475,Chlamydia,2019,Maine,23,3989.0,296.8
+476,Chlamydia,2020,Maine,23,3466.0,254.4
+477,Chlamydia,2021,Maine,23,3372.0,245.7
+478,Chlamydia,2022,Maine,23,3128.0,225.8
+479,Chlamydia,2023,Maine,23,3034.0,217.4
+480,Chlamydia,2000,Maryland,24,14533.0,273.7
+481,Chlamydia,2001,Maryland,24,15640.0,291.0
+482,Chlamydia,2002,Maryland,24,16891.0,310.6
+483,Chlamydia,2003,Maryland,24,16831.0,306.5
+484,Chlamydia,2004,Maryland,24,19952.0,360.3
+485,Chlamydia,2005,Maryland,24,18291.0,328.0
+486,Chlamydia,2006,Maryland,24,21859.0,390.0
+487,Chlamydia,2007,Maryland,24,23150.0,411.4
+488,Chlamydia,2008,Maryland,24,24669.0,436.6
+489,Chlamydia,2009,Maryland,24,23747.0,417.5
+490,Chlamydia,2010,Maryland,24,26192.0,452.5
+491,Chlamydia,2011,Maryland,24,27212.0,466.0
+492,Chlamydia,2012,Maryland,24,26534.0,450.7
+493,Chlamydia,2013,Maryland,24,26723.0,451.2
+494,Chlamydia,2014,Maryland,24,27424.0,460.3
+495,Chlamydia,2015,Maryland,24,27450.0,458.6
+496,Chlamydia,2016,Maryland,24,30658.0,510.7
+497,Chlamydia,2017,Maryland,24,33416.0,554.7
+498,Chlamydia,2018,Maryland,24,35482.0,587.9
+499,Chlamydia,2019,Maryland,24,37779.0,624.9
+500,Chlamydia,2020,Maryland,24,32398.0,524.5
+501,Chlamydia,2022,Maryland,24,31234.0,506.7
+502,Chlamydia,2023,Maryland,24,35836.0,579.8
+503,Chlamydia,2008,Massachusetts,25,17503.0,267.5
+504,Chlamydia,2009,Massachusetts,25,19315.0,293.0
+505,Chlamydia,2010,Massachusetts,25,21080.0,321.0
+506,Chlamydia,2011,Massachusetts,25,22764.0,344.2
+507,Chlamydia,2012,Massachusetts,25,23550.0,353.4
+508,Chlamydia,2013,Massachusetts,25,23210.0,345.7
+509,Chlamydia,2014,Massachusetts,25,21271.0,314.5
+510,Chlamydia,2015,Massachusetts,25,24100.0,354.7
+511,Chlamydia,2016,Massachusetts,25,26807.0,392.9
+512,Chlamydia,2017,Massachusetts,25,29315.0,427.3
+513,Chlamydia,2018,Massachusetts,25,30460.0,442.6
+514,Chlamydia,2019,Massachusetts,25,31622.0,458.8
+515,Chlamydia,2022,Massachusetts,25,28373.0,406.4
+516,Chlamydia,2023,Massachusetts,25,28895.0,412.7
+517,Chlamydia,2008,Michigan,26,44923.0,449.3
+518,Chlamydia,2009,Michigan,26,45714.0,459.2
+519,Chlamydia,2010,Michigan,26,49478.0,500.9
+520,Chlamydia,2011,Michigan,26,49568.0,501.6
+521,Chlamydia,2012,Michigan,26,47566.0,480.6
+522,Chlamydia,2013,Michigan,26,44835.0,452.3
+523,Chlamydia,2014,Michigan,26,44256.0,445.7
+524,Chlamydia,2015,Michigan,26,46486.0,468.1
+525,Chlamydia,2016,Michigan,26,45936.0,461.6
+526,Chlamydia,2017,Michigan,26,50595.0,507.3
+527,Chlamydia,2018,Michigan,26,50592.0,506.7
+528,Chlamydia,2019,Michigan,26,50104.0,501.7
+529,Chlamydia,2022,Michigan,26,42977.0,428.3
+530,Chlamydia,2023,Michigan,26,43115.0,429.5
+531,Chlamydia,2008,Minnesota,27,14351.0,274.4
+532,Chlamydia,2009,Minnesota,27,14197.0,269.8
+533,Chlamydia,2010,Minnesota,27,15294.0,288.0
+534,Chlamydia,2011,Minnesota,27,16902.0,316.2
+535,Chlamydia,2012,Minnesota,27,18056.0,335.8
+536,Chlamydia,2013,Minnesota,27,18742.0,346.2
+537,Chlamydia,2014,Minnesota,27,19907.0,365.2
+538,Chlamydia,2015,Minnesota,27,21243.0,387.5
+539,Chlamydia,2016,Minnesota,27,22685.0,410.8
+540,Chlamydia,2017,Minnesota,27,23539.0,422.9
+541,Chlamydia,2018,Minnesota,27,23569.0,420.4
+542,Chlamydia,2019,Minnesota,27,24470.0,433.9
+543,Chlamydia,2022,Minnesota,27,22072.0,386.1
+544,Chlamydia,2023,Minnesota,27,21777.0,379.5
+545,Chlamydia,2008,Mississippi,28,21253.0,723.1
+546,Chlamydia,2009,Mississippi,28,23589.0,799.6
+547,Chlamydia,2010,Mississippi,28,21417.0,721.0
+548,Chlamydia,2011,Mississippi,28,21216.0,712.2
+549,Chlamydia,2012,Mississippi,28,23054.0,772.6
+550,Chlamydia,2013,Mississippi,28,17464.0,584.3
+551,Chlamydia,2014,Mississippi,28,19605.0,655.6
+552,Chlamydia,2015,Mississippi,28,17371.0,581.3
+553,Chlamydia,2016,Mississippi,28,20112.0,673.1
+554,Chlamydia,2017,Mississippi,28,21149.0,707.7
+555,Chlamydia,2018,Mississippi,28,22086.0,740.9
+556,Chlamydia,2019,Mississippi,28,25303.0,850.2
+557,Chlamydia,2022,Mississippi,28,22968.0,781.2
+558,Chlamydia,2023,Mississippi,28,20603.0,700.9
+559,Chlamydia,2008,Missouri,29,24817.0,417.0
+560,Chlamydia,2009,Missouri,29,25868.0,432.4
+561,Chlamydia,2010,Missouri,29,26049.0,434.4
+562,Chlamydia,2011,Missouri,29,27887.0,464.0
+563,Chlamydia,2012,Missouri,29,27835.0,462.0
+564,Chlamydia,2013,Missouri,29,27328.0,452.4
+565,Chlamydia,2014,Missouri,29,27981.0,462.0
+566,Chlamydia,2015,Missouri,29,28948.0,476.8
+567,Chlamydia,2016,Missouri,29,30843.0,506.7
+568,Chlamydia,2017,Missouri,29,32683.0,535.2
+569,Chlamydia,2018,Missouri,29,34728.0,567.3
+570,Chlamydia,2019,Missouri,29,34416.0,560.8
+571,Chlamydia,2022,Missouri,29,32346.0,523.6
+572,Chlamydia,2023,Missouri,29,30892.0,498.6
+573,Chlamydia,2008,Montana,30,3101.0,320.4
+574,Chlamydia,2009,Montana,30,2988.0,306.7
+575,Chlamydia,2010,Montana,30,3082.0,311.1
+576,Chlamydia,2011,Montana,30,3406.0,341.5
+577,Chlamydia,2012,Montana,30,3827.0,381.3
+578,Chlamydia,2013,Montana,30,3818.0,376.7
+579,Chlamydia,2014,Montana,30,4193.0,410.3
+580,Chlamydia,2015,Montana,30,4184.0,406.0
+581,Chlamydia,2016,Montana,30,4416.0,424.3
+582,Chlamydia,2017,Montana,30,4560.0,433.3
+583,Chlamydia,2018,Montana,30,4917.0,463.6
+584,Chlamydia,2019,Montana,30,4753.0,444.7
+585,Chlamydia,2022,Montana,30,4089.0,364.2
+586,Chlamydia,2023,Montana,30,3655.0,322.6
+587,Chlamydia,2008,Nebraska,31,5573.0,313.1
+588,Chlamydia,2009,Nebraska,31,5443.0,303.3
+589,Chlamydia,2010,Nebraska,31,5114.0,279.5
+590,Chlamydia,2011,Nebraska,31,6780.0,368.3
+591,Chlamydia,2012,Nebraska,31,6748.0,364.1
+592,Chlamydia,2013,Nebraska,31,7301.0,391.4
+593,Chlamydia,2014,Nebraska,31,7499.0,399.0
+594,Chlamydia,2015,Nebraska,31,7956.0,420.7
+595,Chlamydia,2016,Nebraska,31,8197.0,430.1
+596,Chlamydia,2017,Nebraska,31,8595.0,448.6
+597,Chlamydia,2018,Nebraska,31,8026.0,416.8
+598,Chlamydia,2019,Nebraska,31,9291.0,480.3
+599,Chlamydia,2022,Nebraska,31,9627.0,489.2
+600,Chlamydia,2023,Nebraska,31,9274.0,468.8
+601,Chlamydia,2008,Nevada,32,9670.0,370.1
+602,Chlamydia,2009,Nevada,32,10045.0,380.7
+603,Chlamydia,2010,Nevada,32,9666.0,357.7
+604,Chlamydia,2011,Nevada,32,10507.0,387.3
+605,Chlamydia,2012,Nevada,32,11137.0,405.9
+606,Chlamydia,2013,Nevada,32,11781.0,424.4
+607,Chlamydia,2014,Nevada,32,11841.0,420.2
+608,Chlamydia,2015,Nevada,32,12925.0,450.8
+609,Chlamydia,2016,Nevada,32,14649.0,502.1
+610,Chlamydia,2017,Nevada,32,16260.0,547.5
+611,Chlamydia,2018,Nevada,32,17508.0,578.3
+612,Chlamydia,2019,Nevada,32,17827.0,578.8
+613,Chlamydia,2022,Nevada,32,16189.0,509.4
+614,Chlamydia,2023,Nevada,32,15766.0,493.6
+615,Chlamydia,2008,New Hampshire,33,2109.0,159.7
+616,Chlamydia,2009,New Hampshire,33,2102.0,159.0
+617,Chlamydia,2010,New Hampshire,33,2462.0,187.0
+618,Chlamydia,2011,New Hampshire,33,3010.0,228.0
+619,Chlamydia,2012,New Hampshire,33,3072.0,232.0
+620,Chlamydia,2013,New Hampshire,33,3119.0,235.1
+621,Chlamydia,2014,New Hampshire,33,3586.0,268.9
+622,Chlamydia,2015,New Hampshire,33,3095.0,231.6
+623,Chlamydia,2016,New Hampshire,33,3467.0,258.3
+624,Chlamydia,2017,New Hampshire,33,4412.0,327.1
+625,Chlamydia,2018,New Hampshire,33,3734.0,275.9
+626,Chlamydia,2019,New Hampshire,33,3577.0,263.1
+627,Chlamydia,2022,New Hampshire,33,2830.0,202.8
+628,Chlamydia,2023,New Hampshire,33,2756.0,196.6
+629,Chlamydia,2008,New Jersey,34,22405.0,258.8
+630,Chlamydia,2009,New Jersey,34,23974.0,275.8
+631,Chlamydia,2010,New Jersey,34,26142.0,297.1
+632,Chlamydia,2011,New Jersey,34,26209.0,296.9
+633,Chlamydia,2012,New Jersey,34,27271.0,308.3
+634,Chlamydia,2013,New Jersey,34,28327.0,319.8
+635,Chlamydia,2014,New Jersey,34,29904.0,337.3
+636,Chlamydia,2015,New Jersey,34,31337.0,353.4
+637,Chlamydia,2016,New Jersey,34,34519.0,389.1
+638,Chlamydia,2017,New Jersey,34,35239.0,396.6
+639,Chlamydia,2018,New Jersey,34,36514.0,410.9
+640,Chlamydia,2019,New Jersey,34,37591.0,423.2
+641,Chlamydia,2022,New Jersey,34,33147.0,357.9
+642,Chlamydia,2023,New Jersey,34,35689.0,384.1
+643,Chlamydia,2008,New Mexico,35,9262.0,466.8
+644,Chlamydia,2009,New Mexico,35,9493.0,472.9
+645,Chlamydia,2010,New Mexico,35,11706.0,567.0
+646,Chlamydia,2011,New Mexico,35,11374.0,546.7
+647,Chlamydia,2012,New Mexico,35,11898.0,570.0
+648,Chlamydia,2013,New Mexico,35,12249.0,585.4
+649,Chlamydia,2014,New Mexico,35,11558.0,553.1
+650,Chlamydia,2015,New Mexico,35,12632.0,604.6
+651,Chlamydia,2016,New Mexico,35,13108.0,626.7
+652,Chlamydia,2017,New Mexico,35,13560.0,648.3
+653,Chlamydia,2018,New Mexico,35,14000.0,669.0
+654,Chlamydia,2019,New Mexico,35,14283.0,681.2
+655,Chlamydia,2022,New Mexico,35,11172.0,528.6
+656,Chlamydia,2023,New Mexico,35,11071.0,523.6
+657,Chlamydia,2008,New York,36,88359.0,453.9
+658,Chlamydia,2009,New York,36,92069.0,471.6
+659,Chlamydia,2010,New York,36,99920.0,515.1
+660,Chlamydia,2011,New York,36,102763.0,527.0
+661,Chlamydia,2012,New York,36,100546.0,513.7
+662,Chlamydia,2013,New York,36,95803.0,488.2
+663,Chlamydia,2014,New York,36,98814.0,502.8
+664,Chlamydia,2015,New York,36,103615.0,527.2
+665,Chlamydia,2016,New York,36,109433.0,557.4
+666,Chlamydia,2017,New York,36,116814.0,596.3
+667,Chlamydia,2018,New York,36,119571.0,612.2
+668,Chlamydia,2019,New York,36,124622.0,640.6
+669,Chlamydia,2022,New York,36,103673.0,526.9
+670,Chlamydia,2023,New York,36,109284.0,558.4
+671,Chlamydia,2008,North Carolina,37,37516.0,406.5
+672,Chlamydia,2009,North Carolina,37,41045.0,438.7
+673,Chlamydia,2010,North Carolina,37,42048.0,439.2
+674,Chlamydia,2011,North Carolina,37,54819.0,567.6
+675,Chlamydia,2012,North Carolina,37,50596.0,519.0
+676,Chlamydia,2013,North Carolina,37,48416.0,491.9
+677,Chlamydia,2014,North Carolina,37,47147.0,474.7
+678,Chlamydia,2015,North Carolina,37,64376.0,641.7
+679,Chlamydia,2016,North Carolina,37,58006.0,571.2
+680,Chlamydia,2017,North Carolina,37,62876.0,612.3
+681,Chlamydia,2018,North Carolina,37,66553.0,641.1
+682,Chlamydia,2019,North Carolina,37,70257.0,669.9
+683,Chlamydia,2022,North Carolina,37,64525.0,603.1
+684,Chlamydia,2023,North Carolina,37,65867.0,607.9
+685,Chlamydia,2008,North Dakota,38,1921.0,299.9
+686,Chlamydia,2009,North Dakota,38,1957.0,303.0
+687,Chlamydia,2010,North Dakota,38,2404.0,356.3
+688,Chlamydia,2011,North Dakota,38,2445.0,356.8
+689,Chlamydia,2012,North Dakota,38,2908.0,414.7
+690,Chlamydia,2013,North Dakota,38,2932.0,406.1
+691,Chlamydia,2014,North Dakota,38,3451.0,468.0
+692,Chlamydia,2015,North Dakota,38,3159.0,418.9
+693,Chlamydia,2016,North Dakota,38,3455.0,458.0
+694,Chlamydia,2017,North Dakota,38,3278.0,434.2
+695,Chlamydia,2018,North Dakota,38,3525.0,465.0
+696,Chlamydia,2019,North Dakota,38,3880.0,509.1
+697,Chlamydia,2022,North Dakota,38,3704.0,475.3
+698,Chlamydia,2023,North Dakota,38,3421.0,436.4
+699,Chlamydia,2008,Ohio,39,47117.0,408.8
+700,Chlamydia,2009,Ohio,39,48239.0,418.3
+701,Chlamydia,2010,Ohio,39,51150.0,443.3
+702,Chlamydia,2011,Ohio,39,52653.0,456.1
+703,Chlamydia,2012,Ohio,39,53141.0,460.1
+704,Chlamydia,2013,Ohio,39,53121.0,458.9
+705,Chlamydia,2014,Ohio,39,54858.0,472.8
+706,Chlamydia,2015,Ohio,39,56726.0,488.3
+707,Chlamydia,2016,Ohio,39,60496.0,520.0
+708,Chlamydia,2017,Ohio,39,61389.0,526.5
+709,Chlamydia,2018,Ohio,39,63220.0,541.4
+710,Chlamydia,2019,Ohio,39,65393.0,559.4
+711,Chlamydia,2022,Ohio,39,54459.0,463.2
+712,Chlamydia,2023,Ohio,39,54411.0,461.7
+713,Chlamydia,2008,Oklahoma,40,14803.0,406.6
+714,Chlamydia,2009,Oklahoma,40,15023.0,407.6
+715,Chlamydia,2010,Oklahoma,40,14302.0,380.4
+716,Chlamydia,2011,Oklahoma,40,14596.0,385.3
+717,Chlamydia,2012,Oklahoma,40,16843.0,441.1
+718,Chlamydia,2013,Oklahoma,40,18278.0,474.4
+719,Chlamydia,2014,Oklahoma,40,20662.0,532.8
+720,Chlamydia,2015,Oklahoma,40,21025.0,537.8
+721,Chlamydia,2016,Oklahoma,40,21449.0,546.3
+722,Chlamydia,2017,Oklahoma,40,21752.0,553.3
+723,Chlamydia,2018,Oklahoma,40,21974.0,557.7
+724,Chlamydia,2019,Oklahoma,40,23518.0,594.3
+725,Chlamydia,2022,Oklahoma,40,20190.0,502.3
+726,Chlamydia,2023,Oklahoma,40,19104.0,471.3
+727,Chlamydia,2008,Oregon,41,10744.0,284.2
+728,Chlamydia,2009,Oregon,41,11497.0,300.7
+729,Chlamydia,2010,Oregon,41,12352.0,321.9
+730,Chlamydia,2011,Oregon,41,13643.0,352.3
+731,Chlamydia,2012,Oregon,41,13454.0,345.1
+732,Chlamydia,2013,Oregon,41,14181.0,361.5
+733,Chlamydia,2014,Oregon,41,15508.0,391.3
+734,Chlamydia,2015,Oregon,41,16305.0,406.0
+735,Chlamydia,2016,Oregon,41,17425.0,426.0
+736,Chlamydia,2017,Oregon,41,18634.0,449.7
+737,Chlamydia,2018,Oregon,41,19224.0,459.7
+738,Chlamydia,2019,Oregon,41,19279.0,457.1
+739,Chlamydia,2022,Oregon,41,15504.0,365.6
+740,Chlamydia,2023,Oregon,41,15344.0,362.5
+741,Chlamydia,2008,Pennsylvania,42,42233.0,336.2
+742,Chlamydia,2009,Pennsylvania,42,43068.0,341.8
+743,Chlamydia,2010,Pennsylvania,42,47518.0,373.8
+744,Chlamydia,2011,Pennsylvania,42,52884.0,414.9
+745,Chlamydia,2012,Pennsylvania,42,54993.0,430.7
+746,Chlamydia,2013,Pennsylvania,42,52056.0,407.4
+747,Chlamydia,2014,Pennsylvania,42,50536.0,395.2
+748,Chlamydia,2015,Pennsylvania,42,53460.0,418.2
+749,Chlamydia,2016,Pennsylvania,42,56930.0,445.4
+750,Chlamydia,2017,Pennsylvania,42,56447.0,441.4
+751,Chlamydia,2018,Pennsylvania,42,59340.0,463.6
+752,Chlamydia,2019,Pennsylvania,42,61694.0,481.9
+753,Chlamydia,2022,Pennsylvania,42,54645.0,421.3
+754,Chlamydia,2023,Pennsylvania,42,54600.0,421.2
+755,Chlamydia,2008,Rhode Island,44,3317.0,313.4
+756,Chlamydia,2009,Rhode Island,44,3615.0,341.9
+757,Chlamydia,2010,Rhode Island,44,3480.0,330.2
+758,Chlamydia,2011,Rhode Island,44,4146.0,393.5
+759,Chlamydia,2012,Rhode Island,44,4313.0,409.0
+760,Chlamydia,2013,Rhode Island,44,4312.0,408.7
+761,Chlamydia,2014,Rhode Island,44,4349.0,411.9
+762,Chlamydia,2015,Rhode Island,44,4575.0,433.2
+763,Chlamydia,2016,Rhode Island,44,4936.0,467.1
+764,Chlamydia,2017,Rhode Island,44,5282.0,500.3
+765,Chlamydia,2018,Rhode Island,44,5487.0,518.5
+766,Chlamydia,2019,Rhode Island,44,5718.0,539.8
+767,Chlamydia,2022,Rhode Island,44,5199.0,475.3
+768,Chlamydia,2023,Rhode Island,44,5269.0,480.8
+769,Chlamydia,2008,South Carolina,45,26323.0,585.2
+770,Chlamydia,2009,South Carolina,45,26654.0,585.3
+771,Chlamydia,2010,South Carolina,45,26525.0,572.2
+772,Chlamydia,2011,South Carolina,45,28932.0,619.3
+773,Chlamydia,2012,South Carolina,45,27149.0,575.5
+774,Chlamydia,2013,South Carolina,45,25594.0,537.2
+775,Chlamydia,2014,South Carolina,45,28087.0,582.3
+776,Chlamydia,2015,South Carolina,45,27538.0,562.9
+777,Chlamydia,2016,South Carolina,45,28179.0,568.4
+778,Chlamydia,2017,South Carolina,45,32235.0,642.0
+779,Chlamydia,2018,South Carolina,45,33910.0,667.0
+780,Chlamydia,2019,South Carolina,45,35950.0,698.2
+781,Chlamydia,2022,South Carolina,45,35525.0,672.5
+782,Chlamydia,2023,South Carolina,45,32889.0,612.1
+783,Chlamydia,2008,South Dakota,46,2956.0,368.1
+784,Chlamydia,2009,South Dakota,46,3015.0,371.8
+785,Chlamydia,2010,South Dakota,46,3192.0,391.1
+786,Chlamydia,2011,South Dakota,46,3409.0,413.9
+787,Chlamydia,2012,South Dakota,46,3924.0,470.7
+788,Chlamydia,2013,South Dakota,46,3927.0,466.2
+789,Chlamydia,2014,South Dakota,46,4166.0,490.6
+790,Chlamydia,2015,South Dakota,46,3949.0,462.4
+791,Chlamydia,2016,South Dakota,46,4331.0,501.9
+792,Chlamydia,2017,South Dakota,46,4437.0,508.3
+793,Chlamydia,2018,South Dakota,46,4432.0,504.4
+794,Chlamydia,2019,South Dakota,46,4547.0,514.0
+795,Chlamydia,2022,South Dakota,46,5160.0,567.1
+796,Chlamydia,2023,South Dakota,46,4887.0,531.6
+797,Chlamydia,2008,Tennessee,47,28038.0,449.4
+798,Chlamydia,2009,Tennessee,47,29711.0,472.3
+799,Chlamydia,2010,Tennessee,47,28327.0,445.7
+800,Chlamydia,2011,Tennessee,47,31105.0,486.1
+801,Chlamydia,2012,Tennessee,47,32525.0,504.0
+802,Chlamydia,2013,Tennessee,47,30370.0,467.6
+803,Chlamydia,2014,Tennessee,47,30793.0,470.8
+804,Chlamydia,2015,Tennessee,47,31272.0,474.5
+805,Chlamydia,2016,Tennessee,47,32304.0,486.1
+806,Chlamydia,2017,Tennessee,47,35087.0,523.0
+807,Chlamydia,2018,Tennessee,47,38212.0,564.3
+808,Chlamydia,2019,Tennessee,47,41089.0,601.7
+809,Chlamydia,2022,Tennessee,47,37942.0,538.1
+810,Chlamydia,2023,Tennessee,47,36872.0,517.4
+811,Chlamydia,2008,Texas,48,100870.0,415.3
+812,Chlamydia,2009,Texas,48,105910.0,427.6
+813,Chlamydia,2010,Texas,48,119872.0,474.9
+814,Chlamydia,2011,Texas,48,124882.0,487.0
+815,Chlamydia,2012,Texas,48,127036.0,487.0
+816,Chlamydia,2013,Texas,48,129861.0,490.4
+817,Chlamydia,2014,Texas,48,131219.0,486.6
+818,Chlamydia,2015,Texas,48,141158.0,513.9
+819,Chlamydia,2016,Texas,48,142952.0,512.1
+820,Chlamydia,2017,Texas,48,151533.0,535.5
+821,Chlamydia,2018,Texas,48,146510.0,511.8
+822,Chlamydia,2019,Texas,48,129075.0,445.1
+823,Chlamydia,2022,Texas,48,155483.0,517.8
+824,Chlamydia,2023,Texas,48,150056.0,491.9
+825,Chlamydia,2008,Utah,49,6021.0,221.0
+826,Chlamydia,2009,Utah,49,6145.0,221.0
+827,Chlamydia,2010,Utah,49,6690.0,241.1
+828,Chlamydia,2011,Utah,49,7086.0,251.8
+829,Chlamydia,2012,Utah,49,7615.0,266.9
+830,Chlamydia,2013,Utah,49,7535.0,260.0
+831,Chlamydia,2014,Utah,49,8223.0,280.0
+832,Chlamydia,2015,Utah,49,8633.0,289.5
+833,Chlamydia,2016,Utah,49,9457.0,310.9
+834,Chlamydia,2017,Utah,49,10135.0,326.8
+835,Chlamydia,2018,Utah,49,10541.0,334.3
+836,Chlamydia,2019,Utah,49,11075.0,345.5
+837,Chlamydia,2022,Utah,49,11108.0,328.6
+838,Chlamydia,2023,Utah,49,11004.0,322.0
+839,Chlamydia,2008,Vermont,50,1190.0,191.6
+840,Chlamydia,2009,Vermont,50,1186.0,190.8
+841,Chlamydia,2010,Vermont,50,1257.0,200.8
+842,Chlamydia,2011,Vermont,50,1483.0,236.5
+843,Chlamydia,2012,Vermont,50,1724.0,275.4
+844,Chlamydia,2013,Vermont,50,1842.0,294.2
+845,Chlamydia,2014,Vermont,50,2237.0,357.8
+846,Chlamydia,2015,Vermont,50,1901.0,304.1
+847,Chlamydia,2016,Vermont,50,1690.0,271.0
+848,Chlamydia,2017,Vermont,50,1858.0,297.6
+849,Chlamydia,2018,Vermont,50,1712.0,274.2
+850,Chlamydia,2019,Vermont,50,1718.0,275.3
+851,Chlamydia,2022,Vermont,50,1281.0,198.0
+852,Chlamydia,2023,Vermont,50,1307.0,201.9
+853,Chlamydia,2008,Virginia,51,31218.0,401.2
+854,Chlamydia,2009,Virginia,51,30903.0,393.0
+855,Chlamydia,2010,Virginia,51,30797.0,383.8
+856,Chlamydia,2011,Virginia,51,36314.0,448.3
+857,Chlamydia,2012,Virginia,51,34963.0,427.2
+858,Chlamydia,2013,Virginia,51,33316.0,403.7
+859,Chlamydia,2014,Virginia,51,36048.0,433.7
+860,Chlamydia,2015,Virginia,51,35349.0,422.7
+861,Chlamydia,2016,Virginia,51,39666.0,471.6
+862,Chlamydia,2017,Virginia,51,42374.0,500.7
+863,Chlamydia,2018,Virginia,51,42965.0,505.4
+864,Chlamydia,2019,Virginia,51,48169.0,564.3
+865,Chlamydia,2022,Virginia,51,40789.0,469.7
+866,Chlamydia,2023,Virginia,51,41206.0,472.8
+867,Chlamydia,2008,Washington,53,21402.0,325.9
+868,Chlamydia,2009,Washington,53,21387.0,320.6
+869,Chlamydia,2010,Washington,53,21348.0,316.6
+870,Chlamydia,2011,Washington,53,23280.0,341.0
+871,Chlamydia,2012,Washington,53,24596.0,356.6
+872,Chlamydia,2013,Washington,53,24950.0,358.3
+873,Chlamydia,2014,Washington,53,26577.0,376.7
+874,Chlamydia,2015,Washington,53,28699.0,400.6
+875,Chlamydia,2016,Washington,53,31254.0,428.4
+876,Chlamydia,2017,Washington,53,32231.0,434.2
+877,Chlamydia,2018,Washington,53,34449.0,457.9
+878,Chlamydia,2019,Washington,53,37795.0,496.3
+879,Chlamydia,2022,Washington,53,28431.0,365.2
+880,Chlamydia,2023,Washington,53,27687.0,354.4
+881,Chlamydia,2008,West Virginia,54,3316.0,182.6
+882,Chlamydia,2009,West Virginia,54,3604.0,197.9
+883,Chlamydia,2010,West Virginia,54,3876.0,209.0
+884,Chlamydia,2011,West Virginia,54,4295.0,231.4
+885,Chlamydia,2012,West Virginia,54,4790.0,258.0
+886,Chlamydia,2013,West Virginia,54,5139.0,277.2
+887,Chlamydia,2014,West Virginia,54,4719.0,255.2
+888,Chlamydia,2015,West Virginia,54,4958.0,269.2
+889,Chlamydia,2016,West Virginia,54,4821.0,263.3
+890,Chlamydia,2017,West Virginia,54,4140.0,227.8
+891,Chlamydia,2018,West Virginia,54,3599.0,199.5
+892,Chlamydia,2019,West Virginia,54,5609.0,313.0
+893,Chlamydia,2022,West Virginia,54,4450.0,250.7
+894,Chlamydia,2023,West Virginia,54,4407.0,249.0
+895,Chlamydia,2008,Wisconsin,55,20996.0,373.1
+896,Chlamydia,2009,Wisconsin,55,20906.0,370.0
+897,Chlamydia,2010,Wisconsin,55,23236.0,408.3
+898,Chlamydia,2011,Wisconsin,55,24619.0,431.5
+899,Chlamydia,2012,Wisconsin,55,23726.0,414.8
+900,Chlamydia,2013,Wisconsin,55,23572.0,410.9
+901,Chlamydia,2014,Wisconsin,55,23154.0,402.6
+902,Chlamydia,2015,Wisconsin,55,24381.0,423.2
+903,Chlamydia,2016,Wisconsin,55,26894.0,465.9
+904,Chlamydia,2017,Wisconsin,55,27740.0,479.1
+905,Chlamydia,2018,Wisconsin,55,28027.0,482.6
+906,Chlamydia,2019,Wisconsin,55,29080.0,499.4
+907,Chlamydia,2022,Wisconsin,55,25676.0,435.7
+908,Chlamydia,2023,Wisconsin,55,24993.0,422.8
+909,Chlamydia,2008,Wyoming,56,1577.0,296.1
+910,Chlamydia,2009,Wyoming,56,1963.0,360.6
+911,Chlamydia,2010,Wyoming,56,2113.0,374.3
+912,Chlamydia,2011,Wyoming,56,2092.0,368.8
+913,Chlamydia,2012,Wyoming,56,2102.0,364.7
+914,Chlamydia,2013,Wyoming,56,2005.0,344.4
+915,Chlamydia,2014,Wyoming,56,1972.0,338.5
+916,Chlamydia,2015,Wyoming,56,2037.0,347.8
+917,Chlamydia,2016,Wyoming,56,2060.0,352.6
+918,Chlamydia,2017,Wyoming,56,2142.0,370.0
+919,Chlamydia,2018,Wyoming,56,2169.0,375.5
+920,Chlamydia,2019,Wyoming,56,2189.0,378.2
+921,Chlamydia,2022,Wyoming,56,1793.0,308.4
+922,Chlamydia,2023,Wyoming,56,1829.0,313.2
+924,Chlamydia,2000,Massachusetts,25,10073.0,158.3
+925,Chlamydia,2001,Massachusetts,25,10402.0,162.2
+926,Chlamydia,2002,Massachusetts,25,10914.0,169.5
+927,Chlamydia,2003,Massachusetts,25,11301.0,175.1
+928,Chlamydia,2004,Massachusetts,25,13242.0,205.2
+929,Chlamydia,2005,Massachusetts,25,14411.0,223.3
+930,Chlamydia,2006,Massachusetts,25,15394.0,238.1
+931,Chlamydia,2007,Massachusetts,25,16145.0,248.4
+932,Chlamydia,2020,Massachusetts,25,24901.0,354.2
+933,Chlamydia,2021,Massachusetts,25,26950.0,385.8
+934,Chlamydia,2000,Michigan,26,26237.0,263.6
+935,Chlamydia,2001,Michigan,26,31090.0,310.7
+936,Chlamydia,2002,Michigan,26,32272.0,321.5
+937,Chlamydia,2003,Michigan,26,32572.0,323.4
+938,Chlamydia,2004,Michigan,26,41246.0,408.7
+939,Chlamydia,2005,Michigan,26,38730.0,383.8
+940,Chlamydia,2006,Michigan,26,36753.0,364.5
+941,Chlamydia,2007,Michigan,26,37353.0,371.6
+942,Chlamydia,2020,Michigan,26,44769.0,444.3
+943,Chlamydia,2021,Michigan,26,45473.0,452.4
+944,Chlamydia,2000,Minnesota,27,8102.0,164.2
+945,Chlamydia,2001,Minnesota,27,8323.0,167.1
+946,Chlamydia,2002,Minnesota,27,10107.0,201.4
+947,Chlamydia,2003,Minnesota,27,10714.0,212.1
+948,Chlamydia,2004,Minnesota,27,11602.0,228.4
+949,Chlamydia,2005,Minnesota,27,12189.0,238.7
+950,Chlamydia,2006,Minnesota,27,12935.0,251.3
+951,Chlamydia,2007,Minnesota,27,13413.0,258.4
+952,Chlamydia,2020,Minnesota,27,22114.0,387.5
+953,Chlamydia,2021,Minnesota,27,22573.0,395.5
+954,Chlamydia,2000,Mississippi,28,12697.0,445.8
+955,Chlamydia,2001,Mississippi,28,11793.0,413.3
+956,Chlamydia,2002,Mississippi,28,11800.0,412.9
+957,Chlamydia,2003,Mississippi,28,12193.0,425.4
+958,Chlamydia,2004,Mississippi,28,18863.0,653.8
+959,Chlamydia,2005,Mississippi,28,21268.0,733.6
+960,Chlamydia,2006,Mississippi,28,19002.0,656.0
+961,Chlamydia,2007,Mississippi,28,21686.0,742.6
+962,Chlamydia,2020,Mississippi,28,23919.0,807.7
+963,Chlamydia,2021,Mississippi,28,22126.0,750.0
+964,Chlamydia,2000,Missouri,29,13448.0,239.9
+965,Chlamydia,2001,Missouri,29,13949.0,247.2
+966,Chlamydia,2002,Missouri,29,16181.0,284.9
+967,Chlamydia,2003,Missouri,29,18570.0,325.0
+968,Chlamydia,2004,Missouri,29,21319.0,370.4
+969,Chlamydia,2005,Missouri,29,22371.0,385.5
+970,Chlamydia,2006,Missouri,29,22982.0,392.3
+971,Chlamydia,2007,Missouri,29,23308.0,394.7
+972,Chlamydia,2020,Missouri,29,31815.0,516.9
+973,Chlamydia,2021,Missouri,29,31915.0,517.4
+974,Chlamydia,2000,Montana,30,1469.0,162.6
+975,Chlamydia,2001,Montana,30,1897.0,209.4
+976,Chlamydia,2002,Montana,30,2475.0,272.1
+977,Chlamydia,2003,Montana,30,2547.0,277.9
+978,Chlamydia,2004,Montana,30,2608.0,281.7
+979,Chlamydia,2005,Montana,30,2400.0,256.8
+980,Chlamydia,2006,Montana,30,2650.0,280.1
+981,Chlamydia,2007,Montana,30,2748.0,287.1
+982,Chlamydia,2020,Montana,30,4133.0,381.2
+983,Chlamydia,2021,Montana,30,4029.0,364.9
+984,Chlamydia,2000,Nebraska,31,3791.0,221.3
+985,Chlamydia,2001,Nebraska,31,3206.0,186.6
+986,Chlamydia,2002,Nebraska,31,4779.0,277.1
+987,Chlamydia,2003,Nebraska,31,4739.0,273.4
+988,Chlamydia,2004,Nebraska,31,5238.0,300.8
+989,Chlamydia,2005,Nebraska,31,5098.0,291.2
+990,Chlamydia,2006,Nebraska,31,5428.0,308.5
+991,Chlamydia,2007,Nebraska,31,5132.0,290.1
+992,Chlamydia,2020,Nebraska,31,8844.0,450.9
+993,Chlamydia,2021,Nebraska,31,8897.0,453.1
+994,Chlamydia,2000,Nevada,32,4019.0,199.1
+995,Chlamydia,2001,Nevada,32,4831.0,230.7
+996,Chlamydia,2002,Nevada,32,5936.0,274.1
+997,Chlamydia,2003,Nevada,32,5830.0,260.7
+998,Chlamydia,2004,Nevada,32,6690.0,287.4
+999,Chlamydia,2005,Nevada,32,7321.0,304.1
+1000,Chlamydia,2006,Nevada,32,8398.0,337.1
+1001,Chlamydia,2007,Nevada,32,9514.0,370.9
+1002,Chlamydia,2020,Nevada,32,14739.0,474.7
+1003,Chlamydia,2021,Nevada,32,16348.0,520.0
+1004,Chlamydia,2000,New Hampshire,33,1130.0,91.1
+1005,Chlamydia,2001,New Hampshire,33,1383.0,110.1
+1006,Chlamydia,2002,New Hampshire,33,1557.0,122.5
+1007,Chlamydia,2003,New Hampshire,33,1616.0,126.0
+1008,Chlamydia,2004,New Hampshire,33,1736.0,134.3
+1009,Chlamydia,2005,New Hampshire,33,1842.0,141.6
+1010,Chlamydia,2006,New Hampshire,33,1997.0,152.3
+1011,Chlamydia,2007,New Hampshire,33,2055.0,156.1
+1012,Chlamydia,2020,New Hampshire,33,2931.0,212.8
+1013,Chlamydia,2021,New Hampshire,33,3027.0,217.9
+1014,Chlamydia,2000,New Jersey,34,10814.0,128.3
+1015,Chlamydia,2001,New Jersey,34,16312.0,192.2
+1016,Chlamydia,2002,New Jersey,34,14164.0,165.8
+1017,Chlamydia,2003,New Jersey,34,16169.0,188.3
+1018,Chlamydia,2004,New Jersey,34,17448.0,202.6
+1019,Chlamydia,2005,New Jersey,34,19152.0,222.2
+1020,Chlamydia,2006,New Jersey,34,20194.0,234.3
+1021,Chlamydia,2007,New Jersey,34,21536.0,249.5
+1022,Chlamydia,2020,New Jersey,34,31649.0,340.7
+1023,Chlamydia,2021,New Jersey,34,33425.0,360.7
+1024,Chlamydia,2000,New Mexico,35,5204.0,285.8
+1025,Chlamydia,2001,New Mexico,35,6254.0,342.0
+1026,Chlamydia,2002,New Mexico,35,7417.0,401.1
+1027,Chlamydia,2003,New Mexico,35,7480.0,400.4
+1028,Chlamydia,2004,New Mexico,35,9035.0,478.0
+1029,Chlamydia,2005,New Mexico,35,8456.0,441.6
+1030,Chlamydia,2006,New Mexico,35,9829.0,506.5
+1031,Chlamydia,2007,New Mexico,35,9460.0,481.1
+1032,Chlamydia,2020,New Mexico,35,12084.0,570.7
+1033,Chlamydia,2021,New Mexico,35,12441.0,588.0
+1034,Chlamydia,2000,New York,36,31448.0,165.5
+1035,Chlamydia,2001,New York,36,46265.0,242.4
+1036,Chlamydia,2002,New York,36,51123.0,266.8
+1037,Chlamydia,2003,New York,36,57222.0,297.5
+1038,Chlamydia,2004,New York,36,59097.0,306.2
+1039,Chlamydia,2005,New York,36,63966.0,330.9
+1040,Chlamydia,2006,New York,36,68720.0,355.1
+1041,Chlamydia,2007,New York,36,80717.0,415.6
+1042,Chlamydia,2020,New York,36,97722.0,483.7
+1043,Chlamydia,2021,New York,36,101657.0,512.5
+1044,Chlamydia,2000,North Carolina,37,21985.0,272.1
+1045,Chlamydia,2001,North Carolina,37,22101.0,269.4
+1046,Chlamydia,2002,North Carolina,37,24726.0,297.5
+1047,Chlamydia,2003,North Carolina,37,26187.0,311.8
+1048,Chlamydia,2004,North Carolina,37,28967.0,340.1
+1049,Chlamydia,2005,North Carolina,37,31183.0,360.3
+1050,Chlamydia,2006,North Carolina,37,33615.0,379.7
+1051,Chlamydia,2007,North Carolina,37,30611.0,338.3
+1052,Chlamydia,2020,North Carolina,37,64640.0,619.2
+1053,Chlamydia,2021,North Carolina,37,63660.0,603.3
+1054,Chlamydia,2001,North Dakota,38,1062.0,166.9
+1055,Chlamydia,2002,North Dakota,38,1256.0,198.4
+1056,Chlamydia,2003,North Dakota,38,1655.0,262.0
+1057,Chlamydia,2004,North Dakota,38,1810.0,284.8
+1058,Chlamydia,2005,North Dakota,38,1667.0,262.7
+1059,Chlamydia,2006,North Dakota,38,1820.0,286.2
+1060,Chlamydia,2007,North Dakota,38,1789.0,280.6
+1061,Chlamydia,2020,North Dakota,38,3562.0,457.2
+1062,Chlamydia,2021,North Dakota,38,3964.0,511.5
+1063,Chlamydia,2000,North Dakota,38,909.0,141.7
+1064,Chlamydia,2000,Ohio,39,31190.0,274.5
+1065,Chlamydia,2001,Ohio,39,37653.0,330.4
+1066,Chlamydia,2002,Ohio,39,38032.0,333.0
+1067,Chlamydia,2003,Ohio,39,42522.0,371.4
+1068,Chlamydia,2004,Ohio,39,39379.0,343.4
+1069,Chlamydia,2005,Ohio,39,43806.0,381.7
+1070,Chlamydia,2006,Ohio,39,40106.0,349.0
+1071,Chlamydia,2007,Ohio,39,47434.0,411.8
+1072,Chlamydia,2020,Ohio,39,59520.0,504.4
+1073,Chlamydia,2021,Ohio,39,56520.0,479.8
+1074,Chlamydia,2000,Oklahoma,40,9331.0,270.2
+1075,Chlamydia,2001,Oklahoma,40,10478.0,302.5
+1076,Chlamydia,2002,Oklahoma,40,10804.0,310.2
+1077,Chlamydia,2003,Oklahoma,40,11013.0,315.1
+1078,Chlamydia,2004,Oklahoma,40,10366.0,295.2
+1079,Chlamydia,2005,Oklahoma,40,13407.0,379.8
+1080,Chlamydia,2006,Oklahoma,40,12992.0,363.8
+1081,Chlamydia,2007,Oklahoma,40,12529.0,347.2
+1082,Chlamydia,2020,Oklahoma,40,21208.0,535.6
+1083,Chlamydia,2021,Oklahoma,40,20709.0,519.5
+1084,Chlamydia,2000,Oregon,41,7107.0,207.2
+1085,Chlamydia,2001,Oregon,41,7454.0,214.8
+1086,Chlamydia,2002,Oregon,41,7009.0,199.3
+1087,Chlamydia,2003,Oregon,41,7688.0,216.5
+1088,Chlamydia,2004,Oregon,41,8690.0,243.2
+1089,Chlamydia,2005,Oregon,41,9018.0,249.3
+1090,Chlamydia,2006,Oregon,41,9577.0,260.5
+1091,Chlamydia,2007,Oregon,41,9849.0,264.0
+1092,Chlamydia,2020,Oregon,41,15858.0,374.3
+1093,Chlamydia,2021,Oregon,41,15596.0,367.3
+1094,Chlamydia,2000,Pennsylvania,42,26476.0,215.5
+1095,Chlamydia,2001,Pennsylvania,42,28319.0,230.3
+1096,Chlamydia,2002,Pennsylvania,42,31791.0,258.0
+1097,Chlamydia,2003,Pennsylvania,42,37291.0,301.7
+1098,Chlamydia,2004,Pennsylvania,42,38025.0,307.0
+1099,Chlamydia,2005,Pennsylvania,42,37261.0,300.1
+1100,Chlamydia,2006,Pennsylvania,42,39487.0,316.7
+1101,Chlamydia,2007,Pennsylvania,42,42469.0,339.3
+1102,Chlamydia,2020,Pennsylvania,42,52272.0,402.0
+1103,Chlamydia,2021,Pennsylvania,42,53124.0,409.8
+1104,Chlamydia,2000,Rhode Island,44,2632.0,250.5
+1105,Chlamydia,2001,Rhode Island,44,2912.0,275.3
+1106,Chlamydia,2002,Rhode Island,44,2832.0,265.4
+1107,Chlamydia,2003,Rhode Island,44,3000.0,279.7
+1108,Chlamydia,2004,Rhode Island,44,3442.0,319.9
+1109,Chlamydia,2005,Rhode Island,44,3269.0,305.7
+1110,Chlamydia,2006,Rhode Island,44,3142.0,295.2
+1111,Chlamydia,2007,Rhode Island,44,3177.0,299.8
+1112,Chlamydia,2020,Rhode Island,44,4714.0,429.6
+1113,Chlamydia,2021,Rhode Island,44,5199.0,474.5
+1114,Chlamydia,2000,South Carolina,45,9950.0,247.3
+1115,Chlamydia,2001,South Carolina,45,15329.0,377.3
+1116,Chlamydia,2002,South Carolina,45,14314.0,348.9
+1117,Chlamydia,2003,South Carolina,45,14623.0,353.1
+1118,Chlamydia,2004,South Carolina,45,18423.0,439.0
+1119,Chlamydia,2005,South Carolina,45,18296.0,430.4
+1120,Chlamydia,2006,South Carolina,45,22351.0,515.7
+1121,Chlamydia,2007,South Carolina,45,26431.0,598.4
+1122,Chlamydia,2020,South Carolina,45,34118.0,666.6
+1123,Chlamydia,2021,South Carolina,45,36477.0,702.7
+1124,Chlamydia,2000,South Dakota,46,1834.0,242.7
+1125,Chlamydia,2001,South Dakota,46,1821.0,240.0
+1126,Chlamydia,2002,South Dakota,46,2215.0,290.8
+1127,Chlamydia,2003,South Dakota,46,2608.0,340.5
+1128,Chlamydia,2004,South Dakota,46,2532.0,327.5
+1129,Chlamydia,2005,South Dakota,46,2701.0,346.8
+1130,Chlamydia,2006,South Dakota,46,2633.0,334.6
+1131,Chlamydia,2007,South Dakota,46,2620.0,329.3
+1132,Chlamydia,2020,South Dakota,46,4044.0,456.1
+1133,Chlamydia,2021,South Dakota,46,4853.0,542.0
+1134,Chlamydia,2000,Tennessee,47,15068.0,264.2
+1135,Chlamydia,2001,Tennessee,47,15560.0,270.4
+1136,Chlamydia,2002,Tennessee,47,16042.0,276.5
+1137,Chlamydia,2003,Tennessee,47,20380.0,348.0
+1138,Chlamydia,2004,Tennessee,47,22515.0,380.4
+1139,Chlamydia,2005,Tennessee,47,23084.0,384.9
+1140,Chlamydia,2006,Tennessee,47,25320.0,415.7
+1141,Chlamydia,2007,Tennessee,47,26866.0,435.2
+1142,Chlamydia,2020,Tennessee,47,37907.0,548.5
+1143,Chlamydia,2021,Tennessee,47,39227.0,562.4
+1144,Chlamydia,2000,Texas,48,68814.0,328.5
+1145,Chlamydia,2001,Texas,48,69752.0,327.0
+1146,Chlamydia,2002,Texas,48,69521.0,320.3
+1147,Chlamydia,2003,Texas,48,69200.0,313.9
+1148,Chlamydia,2004,Texas,48,70232.0,313.4
+1149,Chlamydia,2005,Texas,48,71860.0,315.3
+1150,Chlamydia,2006,Texas,48,75543.0,323.4
+1151,Chlamydia,2007,Texas,48,85786.0,360.1
+1152,Chlamydia,2020,Texas,48,135124.0,463.6
+1153,Chlamydia,2021,Texas,48,149636.0,506.8
+1154,Chlamydia,2000,Utah,49,2190.0,97.6
+1155,Chlamydia,2001,Utah,49,3004.0,131.1
+1156,Chlamydia,2002,Utah,49,3540.0,151.6
+1157,Chlamydia,2003,Utah,49,3893.0,163.7
+1158,Chlamydia,2004,Utah,49,3857.0,158.2
+1159,Chlamydia,2005,Utah,49,4602.0,184.2
+1160,Chlamydia,2006,Utah,49,5092.0,197.2
+1161,Chlamydia,2007,Utah,49,5721.0,214.8
+1162,Chlamydia,2020,Utah,49,10466.0,319.9
+1163,Chlamydia,2021,Utah,49,11221.0,336.2
+1164,Chlamydia,2003,Vermont,50,1060.0,171.9
+1165,Chlamydia,2004,Vermont,50,1137.0,183.9
+1166,Chlamydia,2006,Vermont,50,1191.0,192.1
+1167,Chlamydia,2007,Vermont,50,1057.0,170.4
+1168,Chlamydia,2020,Vermont,50,1117.0,173.7
+1169,Chlamydia,2021,Vermont,50,910.0,141.0
+1170,Chlamydia,2006,Virginia,51,24087.0,315.5
+1171,Chlamydia,2007,Virginia,51,24579.0,319.0
+1172,Chlamydia,2006,Washington,53,17819.0,279.7
+1173,Chlamydia,2007,Washington,53,18784.0,290.6
+1174,Chlamydia,2006,West Virginia,54,2910.0,160.9
+1175,Chlamydia,2007,West Virginia,54,3168.0,174.8
+1176,Chlamydia,2006,Wisconsin,55,20190.0,362.4
+1177,Chlamydia,2007,Wisconsin,55,19555.0,349.1
+1178,Chlamydia,2006,Wyoming,56,1422.0,277.4
+1179,Chlamydia,2007,Wyoming,56,1197.0,228.8
+1180,Chlamydia,2005,Vermont,50,957.0,154.7
+1181,Chlamydia,2002,Vermont,50,954.0,155.2
+1182,Chlamydia,2001,Vermont,50,638.0,104.3
+1183,Chlamydia,2000,Vermont,50,526.0,86.3
+1184,Chlamydia,2000,Virginia,51,15352.0,216.1
+1185,Chlamydia,2001,Virginia,51,18337.0,255.0
+1186,Chlamydia,2002,Virginia,51,18518.0,254.5
+1187,Chlamydia,2003,Virginia,51,19439.0,264.4
+1188,Chlamydia,2004,Virginia,51,21635.0,290.2
+1189,Chlamydia,2005,Virginia,51,22668.0,300.3
+1190,Chlamydia,2020,Virginia,51,40965.0,474.6
+1191,Chlamydia,2021,Virginia,51,40409.0,467.6
+1192,Chlamydia,2000,Washington,53,13066.0,221.0
+1193,Chlamydia,2001,Washington,53,13631.0,227.6
+1194,Chlamydia,2002,Washington,53,14934.0,246.6
+1195,Chlamydia,2003,Washington,53,16797.0,275.0
+1196,Chlamydia,2004,Washington,53,17635.0,285.3
+1197,Chlamydia,2005,Washington,53,18616.0,297.4
+1198,Chlamydia,2020,Washington,53,31181.0,404.7
+1199,Chlamydia,2021,Washington,53,29632.0,382.9
+1200,Chlamydia,2000,West Virginia,54,2143.0,118.6
+1201,Chlamydia,2001,West Virginia,54,2361.0,131.3
+1202,Chlamydia,2002,West Virginia,54,2464.0,136.9
+1203,Chlamydia,2003,West Virginia,54,2585.0,143.4
+1204,Chlamydia,2004,West Virginia,54,2758.0,152.9
+1205,Chlamydia,2005,West Virginia,54,2944.0,163.2
+1206,Chlamydia,2020,West Virginia,54,5431.0,302.8
+1207,Chlamydia,2021,West Virginia,54,5226.0,293.1
+1208,Chlamydia,2000,Wisconsin,55,16365.0,304.5
+1209,Chlamydia,2001,Wisconsin,55,16291.0,301.2
+1210,Chlamydia,2002,Wisconsin,55,17000.0,312.1
+1211,Chlamydia,2003,Wisconsin,55,17942.0,327.4
+1212,Chlamydia,2004,Wisconsin,55,19217.0,348.6
+1213,Chlamydia,2005,Wisconsin,55,20461.0,369.2
+1214,Chlamydia,2020,Wisconsin,55,26564.0,450.7
+1215,Chlamydia,2021,Wisconsin,55,27847.0,472.3
+1216,Chlamydia,2004,Wyoming,56,1082.0,215.2
+1217,Chlamydia,2005,Wyoming,56,1173.0,231.8
+1218,Chlamydia,2020,Wyoming,56,1961.0,339.9
+1219,Chlamydia,2021,Wyoming,56,2078.0,359.0
+1220,Chlamydia,2003,Wyoming,56,960.0,192.4
+1221,Chlamydia,2002,Wyoming,56,944.0,190.0
+1222,Chlamydia,2001,Wyoming,56,839.0,170.2
+1223,Chlamydia,2000,Wyoming,56,807.0,163.4
