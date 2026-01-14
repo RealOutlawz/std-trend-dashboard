@@ -188,4 +188,4 @@ fig_map = px.choropleth(
     color_continuous_scale="Reds"
 )
 
-st.plotly_chart(fig_map, use_container_width=True)
+st.plotly_chart(fig_map, width=True)
