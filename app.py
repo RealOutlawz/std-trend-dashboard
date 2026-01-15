@@ -22,11 +22,7 @@ col2.metric("States", cleaned_chlamydia["Geography"].nunique())
 col3.metric("Years", f'{cleaned_chlamydia["Year"].min()} - {cleaned_chlamydia["Year"].max()}')
 
 # Showing the data
-st.subheader("Raw Data Sample")
-st.dataframe(cleaned_chlamydia.head(10), hide_index=True)
-
-st.success("Dashboard is running!")
-
+st.header("Interactive Charts", divider="red")
 
 #----------------------------------SIDEBAR FILTER----------------------------------
 
@@ -68,12 +64,13 @@ yearly_cases = chlamydia_filtered.groupby("Year")["Cases"].sum().reset_index()
 
 # Create the chart
 fig, ax = plt.subplots(figsize=(10, 6))
-yearly_cases.plot(x="Year", y="Cases", kind="line", ax=ax, title="Cases Over Time")
+
+yearly_cases.plot(x="Year", y="Cases", kind="line", ax=ax, color="red")
 ax.set_xlabel("Year")
 ax.set_ylabel("Cases", rotation=0, labelpad=30)
 ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: f"{x:,.0f}"))
 plt.tight_layout()
-
+ax.grid(True, alpha=0.3)
 st.pyplot(fig)
 
 first_year_cases = int(yearly_cases["Cases"].iloc[0])
@@ -95,16 +92,19 @@ st.write(f'''
         - Overall trend: {trend}
         ''')
 
+st.markdown("---")
+
 #----------------Top 10 States Chart----------------
 st.subheader("Top 10 States by Total Cases")
 
 # Calculate state totals
 top_states = chlamydia_filtered.groupby("Geography")["Cases"].sum().sort_values(ascending=False).head(10).reset_index()
 
+top_states = top_states.rename(columns={"Geography": "State"})
+
 # Create horizontal bar chart
 fig2, ax2 = plt.subplots(figsize=(10, 6))
-ax2.barh(top_states["Geography"], top_states["Cases"], color="coral")
-ax2.set_title("States with Highest Chlamydia Case Counts")
+ax2.barh(top_states["State"], top_states["Cases"], color="coral")
 ax2.set_xlabel("Total Cases", fontsize=12)
 ax2.set_ylabel("States", rotation=0, fontsize=12)
 ax2.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: f"{x:,.0f}"))
@@ -114,15 +114,23 @@ plt.tight_layout()
 st.pyplot(fig2)
 
 # Showing the actual numbers
-st.write("**The Data:**")
-st.dataframe(top_states.style.format({"Cases": "{:,.0f}"})) # formatting the cases column
+st.markdown("#### The Data")
+st.dataframe(top_states.style.format({"Cases": "{:,.0f}"}), hide_index=True)
+
+st.markdown("---")
 
 #----------------Top 10 States (All Time Rate per 100000)----------------
+st.subheader("Top 10 States (All Time Rate per 100,000)")
+
 top_states_rate = chlamydia_filtered.groupby("Geography")["Rate per 100000"].sum().sort_values(ascending=False).head(10).reset_index()
 
+top_states_rate = top_states_rate.rename(columns={
+    "Geography": "State",
+    "Rate per 100000": "Rate per 100,000"
+})
+
 fig3, ax3 = plt.subplots(figsize=(10, 6))
-ax3.barh(top_states_rate["Geography"], top_states_rate["Rate per 100000"], color="red")
-ax3.set_title("Top 10 States (All Time Rate per 100,000)")
+ax3.barh(top_states_rate["State"], top_states_rate["Rate per 100,000"], color="red")
 ax3.set_xlabel("Rate Per 100,000")
 ax3.set_ylabel("States", rotation=0, labelpad=10)
 ax3.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: f"{x:,.0f}"))
@@ -132,8 +140,10 @@ plt.tight_layout()
 st.pyplot(fig3)
 
 # Showing the actual numbers
-st.write("**The Data:**")
-st.dataframe(top_states_rate.style.format({"Rate per 100000": "{:,.0f}"}))
+st.markdown("#### The Data")
+st.dataframe(top_states_rate.style.format({"Rate per 100,000": "{:,.0f}"}), hide_index=True)
+
+st.markdown("---")
 
 #----------------State Comparison Over Time----------------
 st.subheader("State Comparison Over Time")
@@ -145,14 +155,14 @@ for state in selected_states:
     state_data = state_yearly[state_yearly["Geography"] == state]
     ax4.plot(state_data["Year"], state_data["Cases"], marker="o", label=state)
 ax4.set_xlabel("Year")
-ax4.set_ylabel("Cases")
-ax4.set_title("Cases by State Over Time")
+ax4.set_ylabel("Cases", labelpad=30, rotation=0)
 ax4.legend()
 ax4.grid(True, alpha=0.3)
+ax4.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: f"{x:,.0f}"))
 plt.tight_layout()
-
 st.pyplot(fig4)
 
+st.markdown("---")
 
 #----------------------------------Interactive Map----------------------------------
 st.subheader("Geographic Distribution")
@@ -189,3 +199,5 @@ fig_map = px.choropleth(
 )
 
 st.plotly_chart(fig_map, width=True)
+
+st.markdown("---")
