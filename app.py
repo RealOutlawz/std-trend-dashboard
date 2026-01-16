@@ -15,14 +15,14 @@ cleaned_chlamydia = pd.read_csv("data/cleaned/CHLAMYDIA_CLEANED.csv")
 cleaned_chlamydia = cleaned_chlamydia.iloc[:, 1:]
 
 # Showing basic info
-st.subheader("Dataset Overview")
+st.subheader("Data Overview")
 col1, col2, col3 = st.columns(3)
 col1.metric("Total Records", f"{len(cleaned_chlamydia):,}")
 col2.metric("States", cleaned_chlamydia["Geography"].nunique())
 col3.metric("Years", f'{cleaned_chlamydia["Year"].min()} - {cleaned_chlamydia["Year"].max()}')
 
-# Showing the data
-st.header("Interactive Charts", divider="red")
+
+st.header("Charts", divider="red")
 
 #----------------------------------SIDEBAR FILTER----------------------------------
 
@@ -54,24 +54,45 @@ selected_states = st.sidebar.multiselect(
     default=["California", "Texas", "Florida"]
 )
 
+#----------------------------------DARK MODE TOGGLE----------------------------------
+
+# Dark mode toggle
+dark_mode = st.toggle("Chart Dark Mode")
+
+if dark_mode:
+    bg_color = "#262730"
+    bar_color = "#3c3d4d"
+    txt_color = "white"     
+else:
+    bg_color = "white"            
+    txt_color = "black"           
+    bar_color = "red"             
+
 #----------------------------------CHARTS----------------------------------
 
 #----------------Cases Over Time Chart----------------
-st.subheader("Chlamydia Cases Over Time")
+st.subheader("Total Cases Over Time")
 
 # Aggregate cases by year
 yearly_cases = chlamydia_filtered.groupby("Year")["Cases"].sum().reset_index()
 
-# Create the chart
-fig, ax = plt.subplots(figsize=(10, 6))
+left_col, right_col = st.columns([2,1])
 
-yearly_cases.plot(x="Year", y="Cases", kind="line", ax=ax, color="red")
-ax.set_xlabel("Year")
-ax.set_ylabel("Cases", rotation=0, labelpad=30)
-ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: f"{x:,.0f}"))
-plt.tight_layout()
-ax.grid(True, alpha=0.3)
-st.pyplot(fig)
+with left_col:
+    # Create the chart
+    fig, ax = plt.subplots(figsize=(10, 6))
+
+    fig.patch.set_facecolor(bg_color)
+    ax.set_facecolor(bg_color)
+    ax.tick_params(colors=txt_color)
+
+    yearly_cases.plot(x="Year", y="Cases", kind="line", ax=ax, color="#e6550d")
+    ax.set_xlabel("Year", color=txt_color)
+    ax.set_ylabel("Cases", rotation=0, labelpad=30, color=txt_color)
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: f"{x:,.0f}"))
+    plt.tight_layout()
+    ax.grid(True, alpha=0.3)
+    st.pyplot(fig, use_container_width=False)
 
 first_year_cases = int(yearly_cases["Cases"].iloc[0])
 last_year_cases = int(yearly_cases["Cases"].iloc[-1])
@@ -85,42 +106,52 @@ else:
     trend = "Stable"
 
 # Context
-st.write(f''' 
-        **Key Insights:**
-        - Total cases in {yearly_cases["Year"].min()}: {first_year_cases:,}
-        - Total cases in {yearly_cases["Year"].max()}: {last_year_cases:,}
-        - Overall trend: {trend}
-        ''')
+with right_col:
+    st.write(f''' 
+            **Key Insights:**
+            - Total cases in {yearly_cases["Year"].min()}: {first_year_cases:,}
+            - Total cases in {yearly_cases["Year"].max()}: {last_year_cases:,}
+            - Overall trend: {trend}
+            ''')
 
 st.markdown("---")
 
 #----------------Top 10 States Chart----------------
-st.subheader("Top 10 States by Total Cases")
 
 # Calculate state totals
 top_states = chlamydia_filtered.groupby("Geography")["Cases"].sum().sort_values(ascending=False).head(10).reset_index()
 
 top_states = top_states.rename(columns={"Geography": "State"})
 
-# Create horizontal bar chart
-fig2, ax2 = plt.subplots(figsize=(10, 6))
-ax2.barh(top_states["State"], top_states["Cases"], color="coral")
-ax2.set_xlabel("Total Cases", fontsize=12)
-ax2.set_ylabel("States", rotation=0, fontsize=12)
-ax2.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: f"{x:,.0f}"))
-ax2.invert_yaxis()
-plt.tight_layout()
+left_col, right_col = st.columns([1.5,1])
 
-st.pyplot(fig2)
+with left_col:
+    st.subheader("Top States with the Highest Cases")
+    # Create horizontal bar chart
+    fig2, ax2 = plt.subplots(figsize=(10, 6))
 
-# Showing the actual numbers
-st.markdown("#### The Data")
-st.dataframe(top_states.style.format({"Cases": "{:,.0f}"}), hide_index=True)
+    fig2.patch.set_facecolor(bg_color)
+    ax2.set_facecolor(bg_color)
+    ax2.tick_params(colors=txt_color)
+
+
+    ax2.barh(top_states["State"], top_states["Cases"], color="#e6550d")
+    ax2.set_xlabel("Total Cases", fontsize=12, color=txt_color)
+    ax2.set_ylabel("States", rotation=0, fontsize=12, color=txt_color)
+    ax2.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: f"{x:,.0f}"))
+    ax2.invert_yaxis()
+    plt.tight_layout()
+
+    st.pyplot(fig2, use_container_width=False)
+
+with right_col:
+    # Showing the actual numbers
+    st.subheader("Data")
+    st.dataframe(top_states.style.format({"Cases": "{:,.0f}"}), hide_index=True)
 
 st.markdown("---")
 
 #----------------Top 10 States (All Time Rate per 100000)----------------
-st.subheader("Top 10 States (All Time Rate per 100,000)")
 
 top_states_rate = chlamydia_filtered.groupby("Geography")["Rate per 100000"].sum().sort_values(ascending=False).head(10).reset_index()
 
@@ -129,43 +160,61 @@ top_states_rate = top_states_rate.rename(columns={
     "Rate per 100000": "Rate per 100,000"
 })
 
-fig3, ax3 = plt.subplots(figsize=(10, 6))
-ax3.barh(top_states_rate["State"], top_states_rate["Rate per 100,000"], color="red")
-ax3.set_xlabel("Rate Per 100,000")
-ax3.set_ylabel("States", rotation=0, labelpad=10)
-ax3.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: f"{x:,.0f}"))
-ax3.invert_yaxis()
-plt.tight_layout()
+left_col, right_col = st.columns([1.5,1])
 
-st.pyplot(fig3)
+with left_col:
+    st.subheader("Top States with the Highest Cases (Rate per 100,000)")
+    fig3, ax3 = plt.subplots(figsize=(10, 6))
 
+    fig3.patch.set_facecolor(bg_color)
+    ax3.set_facecolor(bg_color)
+    ax3.tick_params(colors=txt_color)
+
+    ax3.barh(top_states_rate["State"], top_states_rate["Rate per 100,000"], color="#3182bd")
+    ax3.set_xlabel("Rate Per 100,000", color=txt_color)
+    ax3.set_ylabel("States", rotation=0, labelpad=10, color=txt_color)
+    ax3.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: f"{x:,.0f}"))
+    ax3.invert_yaxis()
+    plt.tight_layout()
+
+    st.pyplot(fig3, use_container_width=False)
+
+with right_col:
 # Showing the actual numbers
-st.markdown("#### The Data")
-st.dataframe(top_states_rate.style.format({"Rate per 100,000": "{:,.0f}"}), hide_index=True)
+    st.subheader("Data")
+    st.dataframe(top_states_rate.style.format({"Rate per 100,000": "{:,.0f}"}), hide_index=True)
 
 st.markdown("---")
 
 #----------------State Comparison Over Time----------------
-st.subheader("State Comparison Over Time")
+st.subheader("State Comparison of Cases Over Time")
 state_comparison = chlamydia_filtered[chlamydia_filtered["Geography"].isin(selected_states)]
 state_yearly = state_comparison.groupby(["Year", "Geography"])["Cases"].sum().reset_index()
 
-fig4, ax4 = plt.subplots(figsize=(12, 6))
-for state in selected_states:
-    state_data = state_yearly[state_yearly["Geography"] == state]
-    ax4.plot(state_data["Year"], state_data["Cases"], marker="o", label=state)
-ax4.set_xlabel("Year")
-ax4.set_ylabel("Cases", labelpad=30, rotation=0)
-ax4.legend()
-ax4.grid(True, alpha=0.3)
-ax4.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: f"{x:,.0f}"))
-plt.tight_layout()
-st.pyplot(fig4)
+col1, col2 = st.columns([10,1])
+
+with col1:
+    fig4, ax4 = plt.subplots(figsize=(12, 6))
+
+    fig4.patch.set_facecolor(bg_color)
+    ax4.set_facecolor(bg_color)
+    ax4.tick_params(colors=txt_color)
+
+    for state in selected_states:
+        state_data = state_yearly[state_yearly["Geography"] == state]
+        ax4.plot(state_data["Year"], state_data["Cases"], marker="o", label=state)
+    ax4.set_xlabel("Year", color=txt_color)
+    ax4.set_ylabel("Cases", labelpad=30, rotation=0, color=txt_color)
+    ax4.legend()
+    ax4.grid(True, alpha=0.3)
+    ax4.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: f"{x:,.0f}"))
+    plt.tight_layout()
+    st.pyplot(fig4, use_container_width=False)
 
 st.markdown("---")
 
 #----------------------------------Interactive Map----------------------------------
-st.subheader("Geographic Distribution")
+st.subheader("Map Distribution")
 
 state_abbreviations = {
     "Alabama": "AL", "Alaska": "AK", "Arizona": "AZ", "Arkansas": "AR",
@@ -183,10 +232,10 @@ state_abbreviations = {
     "Wisconsin": "WI", "Wyoming": "WY"
 }
 
-
 latest_year = chlamydia_filtered["Year"].max()
 map_data = chlamydia_filtered[chlamydia_filtered["Year"] == latest_year].copy()
 map_data["state_abbrev"] = map_data["Geography"].map(state_abbreviations)
+
 
 fig_map = px.choropleth(
     map_data,
@@ -194,10 +243,18 @@ fig_map = px.choropleth(
     locationmode="USA-states",
     color="Rate per 100000",
     scope="usa",
-    title=f"Chlamydia Cases Per 100,000 by State ({latest_year})",
-    color_continuous_scale="Reds"
+    title=f"Cases by State for {latest_year} (Rate Per 100,000) ",
+    color_continuous_scale="Oranges",
+    labels={"Rate per 100000": "Rate Per 100,000"}
 )
 
-st.plotly_chart(fig_map, width=True)
+fig_map.update_layout(
+    geo=dict(bgcolor=bg_color),
+    margin=dict(r=0, l=0, t=25, b=0),
+    width=400,
+    height=600
+    )
+
+st.plotly_chart(fig_map)
 
 st.markdown("---")
